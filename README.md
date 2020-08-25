@@ -1,12 +1,14 @@
 # vali-it
 
 ## Slaidid
-Sissejuhatus - https://drive.google.com/file/d/1eRfeMaYiXwZKMitXQXWD_Zk6eFbhMYMv/view?usp=sharing  
-Muutujad, funktsioonid, tingimuslaused - https://drive.google.com/file/d/18PYMz0te-KfPCq30YoZr-3P_3H5uEB4x/view?usp=sharing  
+**1 Tund**: Sissejuhatus - https://drive.google.com/file/d/1eRfeMaYiXwZKMitXQXWD_Zk6eFbhMYMv/view?usp=sharing  
+**1 Tund**: Muutujad, funktsioonid, tingimuslaused - https://drive.google.com/file/d/18PYMz0te-KfPCq30YoZr-3P_3H5uEB4x/view?usp=sharing  
+**2 Tund**: Konsool, massiivid, tsüklid - https://drive.google.com/file/d/1pAfqyI46sqShj3tUhs4Z4Ajghmz2JnWQ/view?usp=sharing
 
 ## Ülesanded
 * Lesson1.java
 * Lesson1MathUtil.java
+* Lesson2.java
 
 ## Lisaülesanded
 https://www.codingame.com/training/easy/the-descent  
