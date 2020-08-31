@@ -6,6 +6,7 @@
 **2 Tund**: Konsool, massiivid, tsüklid - https://drive.google.com/file/d/1pAfqyI46sqShj3tUhs4Z4Ajghmz2JnWQ/view?usp=sharing  
 **4 Tund**:  
 **5 tund**: JSON, Spring Boot - https://drive.google.com/file/d/1W6ONgNsVo_OrKvTHSloGYpuhMt4fM6h8/view?usp=sharing  
+**6 tund**: https://drive.google.com/file/d/1-PPWclLH3npIk4ZK9OSWMeRUp5R2Nzm0/view?usp=sharing  
 ## Ülesanded
 * ee.bcs.valiit.Lesson1.java
 * Lesson1MathUtil.java

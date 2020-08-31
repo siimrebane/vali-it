@@ -1,13 +1,11 @@
 import java.math.BigDecimal;
+import java.math.MathContext;
+import java.math.RoundingMode;
 
 public class Lesson2 {
 
     public static void main(String[] args) {
-        exercise1();
-        exercise2(4);
-        exercise3(2, 5);
-        fibonacci(5);
-        exercise5();
+        exercise7();
     }
 
     public static void exercise1() {
@@ -55,10 +53,12 @@ public class Lesson2 {
 
     public static void exercise7() {
         // TODO arvuta kasutades BigDecimali 1.89 * ((394486820340 / 15 ) - 4 )
-        BigDecimal a = new BigDecimal(1.89);
+        BigDecimal a = new BigDecimal("1.89");
         BigDecimal b = new BigDecimal("394486820345");
         BigDecimal c = new BigDecimal("15");
         BigDecimal d = new BigDecimal("4");
+
+        System.out.println(b.divide(c, 4, RoundingMode.HALF_UP));
     }
 
     public static void exercise8() {
