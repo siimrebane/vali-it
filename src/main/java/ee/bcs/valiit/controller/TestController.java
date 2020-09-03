@@ -19,6 +19,12 @@ public class TestController {
     private static final List<BankAccount> bankAccounts = new ArrayList();
     private static final Map<String, BankAccount> bankAccounts2 = new HashMap<>();
 
+    @GetMapping("sqltest2")
+    public void testSql2(){
+        String sql = "SELECT * FROM account";
+        List<Account> accounts = jdbcTemplate.query(sql, new HashMap<>(), new AccountRowMapper());
+    }
+
     @GetMapping("sqltest")
     public String testSql(){
         String sql = "SELECT account_nr FROM account where id = :id";
