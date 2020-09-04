@@ -10,6 +10,7 @@
 **8 tund** https://drive.google.com/file/d/1IKlES9e6hk_nZzO5pdXBJDP7QdlxpBAV/view?usp=sharing  
 https://drive.google.com/file/d/1imQ-Y7_-cqq2gjwOvN1DtT028YJyFuRa/view?usp=sharing  
 **9 tund** https://drive.google.com/file/d/1r3WWY626JvCCcBkxGHi0DwfxgAx2n3oe/view?usp=sharing  
+**10 tund** https://drive.google.com/file/d/1sZ7g0M1P0wGENmKwUDWhj586FDoV74Oi/view?usp=sharing  
 
 ## Ülesanded
 * ee.bcs.valiit.Lesson1.java
