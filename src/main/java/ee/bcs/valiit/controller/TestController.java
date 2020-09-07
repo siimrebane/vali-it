@@ -13,20 +13,25 @@ import java.util.Map;
 @RestController
 public class TestController {
 
+    private static final List<BankAccount> bankAccounts = new ArrayList();
+    private static final Map<String, BankAccount> bankAccounts2 = new HashMap<>();
     @Autowired
     private NamedParameterJdbcTemplate jdbcTemplate;
 
-    private static final List<BankAccount> bankAccounts = new ArrayList();
-    private static final Map<String, BankAccount> bankAccounts2 = new HashMap<>();
+    @GetMapping("mapping_test")
+    public String mappingTest(String test) {
+        return test;
+    }
 
     @GetMapping("sqltest2")
-    public void testSql2(){
+
+    public void testSql2() {
         String sql = "SELECT * FROM account";
         List<Account> accounts = jdbcTemplate.query(sql, new HashMap<>(), new AccountRowMapper());
     }
 
     @GetMapping("sqltest")
-    public String testSql(){
+    public String testSql() {
         String sql = "SELECT account_nr FROM account where id = :id";
         Map<String, Object> paramMap = new HashMap();
         paramMap.put("id", 1);
