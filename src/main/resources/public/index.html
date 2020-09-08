@@ -5,27 +5,25 @@
     <title>Title</title>
 </head>
 <body>
-    <table>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-        </tr>
-        <tr>
-            <td>
-                <input>
-            </td>
-            <td>2</td>
-            <td>3</td>
-        </tr>
-    </table>
-    <div align="center">
-        <img src="https://image.shutterstock.com/image-photo/red-apple-isolated-on-white-260nw-1498042211.jpg"/>
-    </div>
+<p id="test">
+    mingi tekst
+</p>
+<table id="uusTabel">
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+</table>
+<script>
+    let element = document.getElementById("test");
+    console.log(element)
+    console.log(element.innerHTML);
+    element.innerHTML = "uus 'tekst'";
+
+    let tabelElement = document.getElementById("uusTabel");
+    console.log(tabelElement);
+    console.log(tabelElement.childNodes[0]);
+</script>
 </body>
 </html>
