@@ -5,25 +5,61 @@
     <title>Title</title>
 </head>
 <body>
-<p id="test">
-    mingi tekst
-</p>
-<table id="uusTabel">
-    <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-    </tr>
-</table>
+<button onclick="alert(1);">
+    Test nupp
+</button>
+<button id="testButton2">
+    Test nupp 2
+</button>
+<button id="testButton3">
+    Test nupp 3
+</button>
+<button id="testButton4">
+    Test nupp 4
+</button>
+<button id="testButton5">
+    Tets nupp 5
+</button>
+<input id="testInput"/>
 <script>
-    let element = document.getElementById("test");
-    console.log(element)
-    console.log(element.innerHTML);
-    element.innerHTML = "uus 'tekst'";
-
-    let tabelElement = document.getElementById("uusTabel");
-    console.log(tabelElement);
-    console.log(tabelElement.childNodes[0]);
+    let button2 = document.getElementById("testButton2");
+    button2.onclick = function () {
+        alert("2");
+    }
+    let button3 = document.getElementById("testButton3");
+    let action = function () {
+        alert("3");
+    }
+    button3.addEventListener('click', action);
+    let button4 = document.getElementById("testButton4");
+    button4.addEventListener('click', function () {
+        let inputElement = document.getElementById('testInput');
+        button4.innerHTML = inputElement.value;
+    });
+    let button5 = document.getElementById("testButton5");
+    button5.addEventListener('click', function () {
+        let url = "board" + $.param({foo: "bar", baz: "kuuq"})
+        fetch(url, {
+            method: 'POST',
+            cache: 'no-cache',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                username: 'siim',
+                flag: true
+            })
+        })
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(jsonData) {
+                console.log(jsonData);
+            })
+            .catch(function(err) {
+                alert("viga");
+            });
+    });
 </script>
 </body>
 </html>

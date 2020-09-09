@@ -13,6 +13,7 @@ https://drive.google.com/file/d/1imQ-Y7_-cqq2gjwOvN1DtT028YJyFuRa/view?usp=shari
 **10 tund** https://drive.google.com/file/d/1sZ7g0M1P0wGENmKwUDWhj586FDoV74Oi/view?usp=sharing  
 **HTML** https://drive.google.com/file/d/1T2rhBt0tAuEa74vggxlD_lEi4uTXBZVz/view?usp=sharing  
 **JavaScript** https://drive.google.com/file/d/1cQQBmI_lfebCVKS9PTsKCMPQgsLKjFrP/view?usp=sharing  
+**CSS** https://drive.google.com/file/d/1vevpSy_4xUpp995xELY3kvv4SKTuDlb4/view?usp=sharing  
 
 ## Ülesanded
 * ee.bcs.valiit.Lesson1.java

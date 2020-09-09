@@ -30,6 +30,11 @@ public class TestController {
         List<Account> accounts = jdbcTemplate.query(sql, new HashMap<>(), new AccountRowMapper());
     }
 
+    @PostMapping("board")
+    public TestResponse fetchTest(){
+        return new TestResponse("test");
+    }
+
     @GetMapping("sqltest")
     public String testSql() {
         String sql = "SELECT account_nr FROM account where id = :id";
