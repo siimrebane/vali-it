@@ -15,7 +15,7 @@ https://drive.google.com/file/d/1imQ-Y7_-cqq2gjwOvN1DtT028YJyFuRa/view?usp=shari
 **JavaScript** https://drive.google.com/file/d/1cQQBmI_lfebCVKS9PTsKCMPQgsLKjFrP/view?usp=sharing  
 **CSS** https://drive.google.com/file/d/1vevpSy_4xUpp995xELY3kvv4SKTuDlb4/view?usp=sharing  
 **Security** https://drive.google.com/file/d/1vzBGnQ-591_rnCmtjEHYzxZnSBrEtqET/view?usp=sharing  
-
+**Vue** https://drive.google.com/file/d/1XClKTJ1Fzz5-Ds3zCVPZzcIxawE5EKRY/view?usp=sharing  
 
 ## Ülesanded
 * ee.bcs.valiit.Lesson1.java
