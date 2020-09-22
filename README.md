@@ -18,7 +18,7 @@ https://drive.google.com/file/d/1imQ-Y7_-cqq2gjwOvN1DtT028YJyFuRa/view?usp=shari
 **Vue** https://drive.google.com/file/d/1XClKTJ1Fzz5-Ds3zCVPZzcIxawE5EKRY/view?usp=sharing  
 **Test** https://drive.google.com/file/d/1gDBamU_XGa1gAgqHIZRuhqNJ867H0PRu/view?usp=sharing  
 **Scheduling** https://drive.google.com/file/d/1YoYXF9ksLW1RVhOCsC4SwTV2DoIsUBau/view?usp=sharing  
-**Hibernate and Spring data** https://drive.google.com/file/d/1tnAD6TLQlTrBKf0XV2TVN6tQbQ57ZELN/view?usp=sharing  
+**Hibernate and Spring data** https://drive.google.com/file/d/1sjZnnEAmz9GDOmjRZyGDba2DjkEnyojq/view?usp=sharing  
 
 ## Ülesanded
 * ee.bcs.valiit.Lesson1.java
