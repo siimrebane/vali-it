@@ -19,8 +19,33 @@ public class TestController {
     private NamedParameterJdbcTemplate jdbcTemplate;
 
     @GetMapping("mapping_test")
-    public String mappingTest(String test) {
-        return test;
+    public EmployeeJson mappingTest() {
+        EmployeeJson result = new EmployeeJson();
+        return result;
+    }
+
+    @GetMapping("mapping_test_A")
+    public AEmployeeResult mappingTestA(){
+        AEmployeeResult result = new AEmployeeResult();
+        List<AEmployee> employeeList = new ArrayList<>();
+        result.setEmployees(employeeList);
+        AEmployee employee = new AEmployee();
+        employee.setFirstName("Siim");
+        employee.setLastName("Rebane");
+        List<AContract> contracts = new ArrayList<>();
+        employee.setContracts(contracts);
+        employeeList.add(employee);
+        AContract contract = new AContract();
+        contract.setNotes("abd");
+        contract.setNumber(2);
+        contracts.add(contract);
+        return result;
+    }
+
+    @GetMapping("mapping_test_B")
+    public List<BEmployee> mappingTestB(){
+        List<BEmployee> result = new ArrayList<>();
+        return result;
     }
 
     @GetMapping("sqltest2")

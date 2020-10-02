@@ -24,6 +24,18 @@ public class BankDemoController {
         paramMap.put("aNr", accountNumber);
         Integer result = jdbcTemplate.queryForObject(
                 sql, paramMap, Integer.class);
+
+        // INSERT, UPDATE, DELETE lause (ei tagasta midagi)
+        jdbcTemplate.update(sql, paramMap);
+        // SELECT tagastab 1 tulba ja 1 rea
+        jdbcTemplate.queryForObject(sql, paramMap, String.class);
+        // Select tagastab 1 tulba aga mitu rida
+        jdbcTemplate.queryForList(sql, paramMap, String.class);
+        // Select tagastab mitu tulpa aga 1 rea
+        jdbcTemplate.queryForObject(sql, paramMap, new AccountRowMapper());
+        // Select tagastab mitu tulpa ja mitu rida
+        jdbcTemplate.query(sql, paramMap, new AccountRowMapper());
+
         return result;
     }
 

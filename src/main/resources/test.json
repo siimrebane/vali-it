@@ -1,0 +1,29 @@
+{
+  "teiseYlVastus": [
+    {
+      "name": "",
+      "address": "",
+      "age": 55,
+      "times": [
+        {
+          "beginTime": "",
+          "endTime": "",
+          "employeeName": ""
+        }
+      ]
+    }
+  ],
+  "esimeseYlVastus": [
+    {
+      "name": "",
+      "address": "",
+      "position": "",
+      "vacations": [
+        {
+          "begin": "",
+          "end": ""
+        }
+      ]
+    }
+  ]
+}
