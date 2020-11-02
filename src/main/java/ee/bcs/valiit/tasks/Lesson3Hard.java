@@ -1,4 +1,4 @@
-package ee.bcs.valiit.old;
+package ee.bcs.valiit.tasks;
 
 import java.util.Random;
 
