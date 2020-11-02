@@ -15,6 +15,15 @@ public class Lesson1 {
         // Prindi välja a==b ja a==c
         // Lisa rida a = c
         // Prindi välja a==b ja a==c, mis muutus???
+        int a = 1;
+        int b = 1;
+        int c  =3;
+        System.out.println(a==b);
+        System.out.println(a==c);
+        a = c;
+        System.out.println();
+        System.out.println(a==b);
+        System.out.println(a==c);
     }
 
     public static void excersie2(){
@@ -37,6 +46,7 @@ public class Lesson1 {
 
     public static void excersie4(){
         // TODO
+        String a = "ter\"\\e";
         // Defineeri String tüüpi muutuja mille sisu oleks "\"\\""
         // Trüki muutuja sisu välja
     }
