@@ -2,17 +2,21 @@ package ee.bcs.valiit.tasks;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.util.Scanner;
 
 public class Lesson2 {
 
     public static void main(String[] args) {
-        exercise7();
+        exercise1();
     }
 
     public static void exercise1() {
         // TODO loo 10 elemendile täisarvude massiv
         // TODO loe sisse konsoolist 10 täisarvu
         // TODO trüki arvud välja vastupidises järiekorras
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        System.out.println(a);
     }
 
     public static void exercise2(int x) {
