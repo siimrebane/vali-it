@@ -45,7 +45,7 @@ public class Lesson3 {
         // TODO tagasta x faktoriaal.
         // Näiteks
         // x = 5
-        // return 4*3*2*1 = 24
+        // return 5*4*3*2*1 = 24
         return 0;
     }
 
