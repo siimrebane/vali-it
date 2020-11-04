@@ -2,12 +2,23 @@ package ee.bcs.valiit.tasks;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Lesson2 {
 
     public static void main(String[] args) {
-        exercise1();
+        test();
+        int[] a = new int[]{3, 5, 7, 8};
+        System.out.println(Arrays.toString(a));
+    }
+
+    public static void test() {
+        int a = 4;
+        int b = 8;
+
+
+        System.out.println(a + "/" + b);
     }
 
     public static void exercise1() {
@@ -33,6 +44,13 @@ public class Lesson2 {
         // 1 2 3
         // 2 4 6
         // 3 6 9
+        // TODO 1 trüki korrutustabeli esimene rida (numbrid 1 - x)
+        // TODO 2 lisa + " " print funktsiooni ja kasuta print mitte println
+        // TODO 3 trüki seda sama rida y korda
+        // TODO 4 Kuskile võiks kirjutada System.out.println(),
+        //  et saada taebli kuju
+        // TODO 5 võrdle ridu. Kas on mingi seaduspärasus ridade vahel,
+        // mis on ja mis võiks olla. Äkki tuleb mõni idee
     }
 
     public static int fibonacci(int n) {
@@ -45,6 +63,9 @@ public class Lesson2 {
 
     public static void exercise5() {
         // https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=36
+        // TODO 1 (tee alamfunktsioon) mis leiab 3n+1 sequenci pikkuse
+        // kui on paaris / 2 kui on paaritu *3+1
+        // TODO 2 tee tsükkel mis leiab i -> j kõige suurema tsükkli pikkuse
     }
 
     public static void exercise6() {
