@@ -2,23 +2,12 @@ package ee.bcs.valiit.tasks;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class Lesson2 {
 
     public static void main(String[] args) {
-        test();
-        int[] a = new int[]{3, 5, 7, 8};
-        System.out.println(Arrays.toString(a));
-    }
-
-    public static void test() {
-        int a = 4;
-        int b = 8;
-
-
-        System.out.println(a + "/" + b);
+        exercise6();
     }
 
     public static void exercise1() {
@@ -69,6 +58,19 @@ public class Lesson2 {
     }
 
     public static void exercise6() {
+        String a = "2018-01-13, 436";
+        String[] b = a.split(", ");
+        System.out.println(b[0]);
+        System.out.println(b[1].trim());
+        Visit visit = new Visit(b[0], Integer.parseInt(b[1]));
+        List<Visit> visits = new ArrayList<>();
+        visits.add(visit);
+        visits.sort(new Comparator<Visit>() {
+            @Override
+            public int compare(Visit o1, Visit o2) {
+                return 0;
+            }
+        });
         /*
             Kirjutada Java programm, mis loeb failist visits.txt sisse looduspargi külastajad erinevatel jaanuari päevadel ning
             a) sorteerib külastuspäevad külastajate arvu järgi kasvavalt ning prindib tulemuse konsoolile;

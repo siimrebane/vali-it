@@ -13,3 +13,6 @@ https://www.codingame.com/training/medium/don't-panic-episode-1
 
 https://www.codingame.com/training/hard/skynet-revolution-episode-2  
 https://www.codingame.com/training/hard/don't-panic-episode-2  
+
+## Kodune lugemine
+* https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html  
