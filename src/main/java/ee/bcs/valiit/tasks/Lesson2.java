@@ -67,10 +67,17 @@ public class Lesson2 {
         visits.add(visit);
         visits.sort(new Comparator<Visit>() {
             @Override
+            // 0, 1, -1
             public int compare(Visit o1, Visit o2) {
                 return 0;
             }
         });
+        BigDecimal b1 = BigDecimal.ONE;
+        BigDecimal b2 = BigDecimal.TEN;
+        System.out.println(b1.compareTo(b2));
+        if(b1.compareTo(b2) < 0){
+            System.out.println("true");
+        }
         /*
             Kirjutada Java programm, mis loeb failist visits.txt sisse looduspargi külastajad erinevatel jaanuari päevadel ning
             a) sorteerib külastuspäevad külastajate arvu järgi kasvavalt ning prindib tulemuse konsoolile;
