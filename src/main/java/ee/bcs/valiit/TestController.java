@@ -1,10 +1,7 @@
 package ee.bcs.valiit;
 
 import ee.bcs.valiit.tasks.Lesson2;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +9,27 @@ import java.util.List;
 @RequestMapping("test")
 @RestController
 public class TestController {
+    List<Employee> employeeList = new ArrayList<>();
+
+    @GetMapping("dto_test")
+    public Employee getEmployee(){
+        Employee e = new Employee();
+        e.setFirstName("a");
+        e.setLastName("b");
+        return e;
+    }
+
+    @PostMapping("dto_test")
+    public List<Employee> getEmployee2(@RequestBody Employee employee){
+        employeeList.add(employee);
+        Employee e = new Employee();
+        e.setFirstName("Siim");
+        e.setLastName("Rebane");
+        employeeList.add(e);
+        employeeList.stream().filter(e2 -> e2.getFirstName().equals("siim"));
+        return employeeList;
+    }
+
 
     @GetMapping("/fibonacci")
     public int test(@RequestParam("nr") int nr){
