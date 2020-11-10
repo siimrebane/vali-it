@@ -7,6 +7,9 @@
 **3 Tund**: https://drive.google.com/file/d/1m1Y0DFIvRURYtvsxe_07X17u-K0faX9e/view?usp=sharing  
 **4 Tund**: Json, REST, Web - https://drive.google.com/file/d/1fhjZ0GG_a6esXEec7ZDqYjkCaAPJJtIg/view?usp=sharing  
 **5 Tund**: Request Body, DTO - https://drive.google.com/file/d/1EuUlOQKOFFzTHADBwemIhP3JApNy_ilX/view?usp=sharing  
+**6 Tund**: SQL - https://drive.google.com/file/d/1_R2bs9feqf3rMdKlw6ky8zDfBQuCZzwH/view?usp=sharing  
+**7 Tund**: SQL 2 - 
+
 ## Lisaülesanded
 https://www.codingame.com/training/easy/the-descent  
 
