@@ -21,7 +21,7 @@ https://www.codingame.com/training/hard/skynet-revolution-episode-2
 https://www.codingame.com/training/hard/don't-panic-episode-2  
 
 ## Testid
-**Test 2 (13.11.2020)**: https://drive.google.com/file/d/1BQoDmQYq2fTDqV4eHAbFbVBk9C-bWg9a/view?usp=sharing 
+**Test 2 (16.11.2020)**: https://drive.google.com/file/d/1BQoDmQYq2fTDqV4eHAbFbVBk9C-bWg9a/view?usp=sharing 
 
 ## Kodune lugemine
 * https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html  
