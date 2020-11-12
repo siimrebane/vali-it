@@ -10,7 +10,8 @@
 **SQL**: https://drive.google.com/file/d/1aI8u9YQMVcIbqJyGgp_5JqImpIYm6Uzg/view?usp=sharing  
 **Architecture**: https://drive.google.com/file/d/1H5rjtj9EAtwbYzx6UURgXpO6P-UKaqwz/view?usp=sharing  
 **Liquibase**: https://drive.google.com/file/d/16uRjxDDWwznV1oR1mHfUjUz1CzafeNX-/view?usp=sharing  
-**Exceptions**: https://drive.google.com/file/d/1CdufR8DOl0IMSEhIZfRqrkLsQ-lQ1VFL/view?usp=sharing  
+**SQL 2**: https://drive.google.com/file/d/1VV1XaEAFDaIGfTW0An8QvB8YnNWOSh5a/view?usp=sharing  
+**Exceptions**: 
 
 ## Lisaülesanded
 https://www.codingame.com/training/easy/the-descent  
