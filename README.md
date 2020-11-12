@@ -11,6 +11,7 @@
 **Architecture**: https://drive.google.com/file/d/1H5rjtj9EAtwbYzx6UURgXpO6P-UKaqwz/view?usp=sharing  
 **Liquibase**: https://drive.google.com/file/d/16uRjxDDWwznV1oR1mHfUjUz1CzafeNX-/view?usp=sharing  
 **SQL 2**: https://drive.google.com/file/d/1VV1XaEAFDaIGfTW0An8QvB8YnNWOSh5a/view?usp=sharing  
+**Hibernate, Spring Data** https://drive.google.com/file/d/1uX-NqpRoqBSj2M0LeWhodYgWj5Xw82b0/view?usp=sharing  
 **Exceptions**: 
 
 ## Lisaülesanded
