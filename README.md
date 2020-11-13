@@ -12,7 +12,7 @@
 **Liquibase**: https://drive.google.com/file/d/16uRjxDDWwznV1oR1mHfUjUz1CzafeNX-/view?usp=sharing  
 **SQL 2**: https://drive.google.com/file/d/1VV1XaEAFDaIGfTW0An8QvB8YnNWOSh5a/view?usp=sharing  
 **Hibernate, Spring Data** https://drive.google.com/file/d/1uX-NqpRoqBSj2M0LeWhodYgWj5Xw82b0/view?usp=sharing  
-**Exceptions**: 
+**Exceptions**: https://drive.google.com/file/d/13Sr4g4S78II7Ghhy_BllJJzdJCmlqWST/view?usp=sharing  
 
 ## Lisaülesanded
 https://www.codingame.com/training/easy/the-descent  

@@ -1,6 +1,9 @@
 package ee.bcs.valiit;
 
+import ee.bcs.valiit.respository2.Account;
+import ee.bcs.valiit.respository2.AccountRepository2;
 import ee.bcs.valiit.tasks.Lesson2;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -9,7 +12,15 @@ import java.util.List;
 @RequestMapping("test")
 @RestController
 public class TestController {
+    @Autowired
+    private AccountRepository2 accountRepository2;
+
     List<Employee> employeeList = new ArrayList<>();
+
+    @GetMapping("hibernate_test")
+    public Account getAllAccounts(String a){
+        return accountRepository2.getAccountByAccountNr(a);
+    }
 
     @GetMapping("dto_test")
     public Employee getEmployee(){
