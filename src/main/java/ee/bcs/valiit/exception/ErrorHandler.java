@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
 @ControllerAdvice
-public class ExcptionHandler extends ResponseEntityExceptionHandler {
+public class ErrorHandler extends ResponseEntityExceptionHandler {
+
 
     @ExceptionHandler(ApplicationException.class)
-    public ResponseEntity<Object> handleApplicationException(Exception e){
-        System.out.println("juhtus viga");
+    public ResponseEntity<Object> handleApplicationException(ApplicationException e){
         return new ResponseEntity<>(new ErrorResponse(e.getMessage()),
                 new HttpHeaders(),
                 HttpStatus.BAD_REQUEST);
@@ -23,6 +23,6 @@ public class ExcptionHandler extends ResponseEntityExceptionHandler {
         e.printStackTrace();
         return new ResponseEntity<>(new ErrorResponse("Server error"),
                 new HttpHeaders(),
-                HttpStatus.I_AM_A_TEAPOT);
+                HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }

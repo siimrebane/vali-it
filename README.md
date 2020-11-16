@@ -1,6 +1,7 @@
 # vali-it
 
 ## Slaidid
+### Java / SQL
 **Sissejuhatus**: https://drive.google.com/file/d/1eRkD-mdtXgaDU__MS0SFKUpktynqHaQD/view?usp=sharing    
 **Muutujad, funktsioonid, tingimuslaused**: https://drive.google.com/file/d/1KA2OI2VfAx91DH4-1RH5C2DjBex6duo7/view?usp=sharing  
 **Konsool, massiivid, tsüklid**: https://drive.google.com/file/d/1_r5hhwREet1__jD4wcWHB98NNvdCkuVf/view?usp=sharing  
@@ -14,6 +15,10 @@
 **Hibernate, Spring Data** https://drive.google.com/file/d/1uX-NqpRoqBSj2M0LeWhodYgWj5Xw82b0/view?usp=sharing  
 **Exceptions**: https://drive.google.com/file/d/13Sr4g4S78II7Ghhy_BllJJzdJCmlqWST/view?usp=sharing  
 **Scheduled Tasks**: https://drive.google.com/file/d/14Ck_5v27A_NI7w1mzZfDCfj0rCgo4T1x/view?usp=sharing  
+**Testing**: https://drive.google.com/file/d/1sTL2x1qjMM7D-Ef0nT-qk_dq_q0WGZAA/view?usp=sharing  
+### HTML / CSS
+**HTML**:  https://drive.google.com/file/d/1GIKfmrQaR5SP-SRjt5WWyU-Kk4de5sWP/view?usp=sharing  
+**CSS**: https://drive.google.com/file/d/1PDfcsThCeSokY8FCEsFhB8uNyMwH9eZo/view?usp=sharing  
 
 ## Lisaülesanded
 https://www.codingame.com/training/easy/the-descent  

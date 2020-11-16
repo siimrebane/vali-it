@@ -1,5 +1,7 @@
 package ee.bcs.valiit.service;
 
+import ee.bcs.valiit.respository2.AccountRepository;
+import ee.bcs.valiit.respository2.AccountRepository2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Service;
@@ -13,6 +15,9 @@ import java.util.Map;
 public class AccountService {
 
     @Autowired
+    private AccountRepository accountRepository;
+
+    @Autowired
     private NamedParameterJdbcTemplate jdbcTemplate;
 
     public void createAccount(String requestName, String requestAddress){
@@ -23,5 +28,11 @@ public class AccountService {
         paramMap.put("muutuja2", requestAddress);
         jdbcTemplate.update(sql, paramMap);
         jdbcTemplate.queryForObject(sql, paramMap, String.class);
+    }
+
+    public String test2(String i, String j) {
+        Integer iValue = Integer.valueOf(i);
+        Integer jValue = Integer.valueOf(j);
+        return accountRepository.test2(iValue, jValue);
     }
 }
