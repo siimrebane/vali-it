@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="myButton">Press me!</button>
+    <table id="myTable">
+    </table>
+    <script>
+        let myButton = document.getElementById("myButton");
+        myButton.onclick = function(){
+            let myTable = document.getElementById("myTable")
+            let rowElement = document.createElement("tr");
+            let cellElement = document.createElement("td");
+            rowElement.append(cellElement);
+            cellElement.innerText="test";
+            myTable.append(rowElement);
+        }
+        // Ülesanne nr 1: Luua nupp ja input väli
+        // input väljale sisestatakse number
+        // juhul kui vajutatakse nupule peab lisama tabelisse 1 rea
+        // kus on nii mitu tulpa, kui sisestatud number
+        // iga td sisu peab olema kui mitmes td ta on (1 -> n)
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

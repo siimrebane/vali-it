@@ -11,6 +11,9 @@
             <td>test</td>
         </tr>
     </table>
+    <div id="container">
+        Tühi div
+    </div>
     <form method="post">
     valik1: <input type="radio" name="a">
     <input type="radio" name="a">
@@ -55,6 +58,7 @@
     tel: <input type="tel">
     <input type="submit">
     </form>
+
     <script>
         function calculateLoan(amount,months,interest = 10, name="John"){
             return months;
@@ -65,6 +69,10 @@
         console.log(calculateLoan());
         let element = document.getElementById("textElement");
         element.value = "midagi";
+        let myElement = document.getElementById("container");
+        let myNewElement = document.createElement("input");
+        myElement.append(myNewElement);
+        myNewElement.value="mingi tekst";
     </script>
 </div>
 </body>
