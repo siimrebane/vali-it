@@ -25,10 +25,10 @@ public class TestController {
     List<Employee> employeeList = new ArrayList<>();
 
     @GetMapping("exception_test2")
-    public String exceptionTest2(
+    public Result exceptionTest2(
             @RequestParam("i") Integer i,
             @RequestParam("j") String j){
-        return accountService.test2(i.toString(), j);
+        return new Result(accountService.test2(i.toString(), j));
     }
 
     @GetMapping("excption_test")

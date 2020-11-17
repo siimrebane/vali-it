@@ -19,7 +19,8 @@
 ### HTML / CSS
 **HTML**:  https://drive.google.com/file/d/1GIKfmrQaR5SP-SRjt5WWyU-Kk4de5sWP/view?usp=sharing  
 **CSS**: https://drive.google.com/file/d/1PDfcsThCeSokY8FCEsFhB8uNyMwH9eZo/view?usp=sharing  
-
+**Input elements**: https://drive.google.com/file/d/1PixZ8PqNh6ar46VgYXjV8Qwr22zpI-LI/view?usp=sharing  
+**Javascript**: https://drive.google.com/file/d/107A2Y-SiNuogTrxcKg_1GtGr5I-ajGBz/view?usp=sharing  
 ## Lisaülesanded
 https://www.codingame.com/training/easy/the-descent  
 
