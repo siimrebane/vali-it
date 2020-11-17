@@ -21,6 +21,7 @@
 **CSS**: https://drive.google.com/file/d/1PDfcsThCeSokY8FCEsFhB8uNyMwH9eZo/view?usp=sharing  
 **Input elements**: https://drive.google.com/file/d/1PixZ8PqNh6ar46VgYXjV8Qwr22zpI-LI/view?usp=sharing  
 **Javascript**: https://drive.google.com/file/d/107A2Y-SiNuogTrxcKg_1GtGr5I-ajGBz/view?usp=sharing  
+**Fetch and promise**: https://drive.google.com/file/d/1U6DegR1kbvmK_iXwMYnvp6YcVmki7rk9/view?usp=sharing  
 ## Lisaülesanded
 https://www.codingame.com/training/easy/the-descent  
 
