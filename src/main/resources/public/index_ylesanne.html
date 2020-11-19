@@ -6,18 +6,25 @@
 </head>
 <body>
     <button id="myButton">Press me!</button>
-    <input type="number"/>
-    <table id="myTable">
+    <input id="myInput" type="number"/>
+    <input id="myInput2" type="number"/>
+    <table id="myTable" border="1">
     </table>
     <script>
         let myButton = document.getElementById("myButton");
         myButton.onclick = function(){
-            let myTable = document.getElementById("myTable")
-            let rowElement = document.createElement("tr");
-            let cellElement = document.createElement("td");
-            rowElement.append(cellElement);
-            cellElement.innerText="test";
-            myTable.append(rowElement);
+            let myInput = document.getElementById("myInput").value;
+            let myInput2 = document.getElementById("myInput2").value;
+            let myTable = document.getElementById("myTable");
+            for(let j = 1; j <= myInput2; j++){
+                let rowElement = document.createElement("tr");
+                for(let i = 1; i <= myInput; i++){
+                    let cellElement = document.createElement("td");
+                    cellElement.innerText=i;
+                    rowElement.append(cellElement);
+                }
+                myTable.append(rowElement);
+            }
         }
         // Ülesanne nr 1: Luua nupp ja input väli
         // input väljale sisestatakse number

@@ -22,7 +22,18 @@ public class TestController {
         this.accountService = accountService;
     }
 
-    List<Employee> employeeList = new ArrayList<>();
+    @CrossOrigin
+    @PostMapping("register")
+    public List<User> register(@RequestBody User user){
+        System.out.println(user);
+        List<User> userList = new ArrayList<>();
+        userList.add(user);
+        userList.add(new User("john", "john@smt.com", 33));
+        userList.add(new User("someone", "puudub", 5));
+        userList.add(new User("I have no idea what to write here", "" ,11));
+        userList.add(new User("keegi veel", "email@email.com", 32));
+        return userList;
+    }
 
     @GetMapping("exception_test2")
     public Result exceptionTest2(
