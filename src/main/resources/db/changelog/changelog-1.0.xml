@@ -12,6 +12,7 @@
             <column  name="name"  type="varchar(50)">
                 <constraints  nullable="false"/>
             </column>
+            
             <column name="company_id" type="int">
                 <constraints nullable="true" foreignKeyName="fk_department_company"
                              references="company(id)"/>
