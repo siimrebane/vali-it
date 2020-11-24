@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="text-align: center">
+    <table style="margin-left:auto;margin-right:auto;" border="1" width="50%">
+        <tr>
+            <td>test</td>
+        </tr>
+    </table>
+    <div id="container">
+        Tühi div
+    </div>
+    <form method="post">
+    valik1: <input type="radio" name="a">
+    <input type="radio" name="a">
+    <input type="radio" name="a">
+    <input type="radio" name="b">
+    <input type="radio" name="b">
+    <input type="radio" name="b">
+    <br>
+    hidden: <input type="hidden">
+    <br>
+    text: <input id="textElement" type="text"/>
+    <br>
+    password: <input type="password"/>
+    <br>
+    textarea: <textarea name="aa"></textarea>
+    <br>
+    select:
+    <select>
+        <option>valik 1</option>
+        <option>valik 2</option>
+        <option>valik 3</option>
+    </select>
+    <br>
+    fail: <input type="file"/>
+    <br>
+    number: <input type="number"/>
+    <br>
+    email: <input type="email"/>
+    <br>
+    date: <input type="date">
+    <br>
+    datetime: <input type="datetime-local">
+    <br>
+    week: <input type="week">
+    <br>
+    time: <input type="time">
+    <br>
+    color: <input type="color">
+    <br>
+    range: <input type="range">
+    <br>
+    tel: <input type="tel">
+    <input type="submit">
+    </form>
+
+    <script>
+        function calculateLoan(amount,months,interest = 10, name="John"){
+            return months;
+        }
+        console.log(calculateLoan(1000, 36, 7, "John Snow"));
+        console.log(calculateLoan(1000, 36, 7, "John", "A"));
+        console.log(calculateLoan(1000, 36));
+        console.log(calculateLoan());
+        let element = document.getElementById("textElement");
+        element.value = "midagi";
+        let myElement = document.getElementById("container");
+        let myNewElement = document.createElement("input");
+        myElement.append(myNewElement);
+        myNewElement.value="mingi tekst";
+    </script>
+</div>
+</body>
+</html>
+
+
+
+
+
+
