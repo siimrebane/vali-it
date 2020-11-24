@@ -19,7 +19,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc //need this in Spring Boot test
-public class AccountServiceTest {
+public class AccountEntityServiceTest {
     @Autowired
     private MockMvc mockMvc;
 

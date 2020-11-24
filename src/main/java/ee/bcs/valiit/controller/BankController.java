@@ -1,21 +1,22 @@
 package ee.bcs.valiit.controller;
 
-import ee.bcs.valiit.Account;
-import ee.bcs.valiit.AccountRowMapper;
 import ee.bcs.valiit.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 @RestController
 public class BankController {
     @Autowired
     private AccountService accountService;
+
+    @GetMapping("account_test")
+    public AccountResponse getAccounts(){
+        return accountService.getAccount();
+    }
 
     @PostMapping("account/{requestName}/{requestAddress}")
     public void createAccount(@PathVariable("requestName") String requestName,

@@ -1,13 +1,12 @@
 package ee.bcs.valiit.service;
 
+import ee.bcs.valiit.controller.AccountResponse;
+import ee.bcs.valiit.respository2.AccountEntity;
 import ee.bcs.valiit.respository2.AccountRepository;
-import ee.bcs.valiit.respository2.AccountRepository2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Service;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -30,9 +29,13 @@ public class AccountService {
         jdbcTemplate.queryForObject(sql, paramMap, String.class);
     }
 
-    public String test2(String i, String j) {
-        Integer iValue = Integer.valueOf(i);
-        Integer jValue = Integer.valueOf(j);
-        return accountRepository.test2(iValue, jValue);
+    public void testTest() {
+        accountRepository.getCar(1);
+    }
+
+    public AccountResponse getAccount() {
+        AccountEntity account = accountRepository.getAccount();
+        AccountResponse accountResponse = new AccountResponse(account);
+        return accountResponse;
     }
 }

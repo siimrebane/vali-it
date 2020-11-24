@@ -4,8 +4,11 @@ import ee.bcs.valiit.exception.ApplicationException;
 import ee.bcs.valiit.respository2.AccountRepository2;
 import ee.bcs.valiit.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
+import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,6 +25,26 @@ public class TestController {
         this.accountService = accountService;
     }
 
+    @GetMapping("test2")
+    public List<Employee> getEmployees(){
+        // Mingi kood
+        String name = getNameFromSomewhere();
+        try{
+            name = convertName(name);
+        } catch (Exception e){
+            name = null;
+        }
+        repo.save(name);
+        // Veel mingi kood
+    }
+
+    @CrossOrigin
+    @GetMapping("test_tet")
+    public void testTest(){
+        accountService.testTest();
+    }
+
+
     @CrossOrigin
     @PostMapping("register")
     public List<User> register(@RequestBody User user){
@@ -35,16 +58,16 @@ public class TestController {
         return userList;
     }
 
-    @GetMapping("exception_test2")
-    public Result exceptionTest2(
-            @RequestParam("i") Integer i,
-            @RequestParam("j") String j){
-        return new Result(accountService.test2(i.toString(), j));
-    }
-
     @GetMapping("excption_test")
     public int exceptionTest(
+            Principal principal,
             @RequestParam(value = "i", required = false) Integer i){
+        UserDetails userDetails =
+                (UserDetails) SecurityContextHolder.
+                        getContext().
+                        getAuthentication().
+                        getPrincipal();
+        System.out.println(principal.getName());
         return fib(i);
     }
     private int fib(Integer i) {
