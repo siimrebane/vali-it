@@ -7,6 +7,9 @@ import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Timestamp;
+import java.time.LocalDateTime;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -22,8 +25,8 @@ public class AccountRepository {
         return jdbcTemplate.queryForObject(sql, paramMap, new CarRowMapper());
     }
 
-    public AccountEntity getAccount() {
-
+    public AccountEntity getAccount(Long id) {
+        return null;
     }
 
     private class CarRowMapper implements RowMapper<Car> {

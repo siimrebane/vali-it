@@ -9,6 +9,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 import java.security.Principal;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,23 +28,8 @@ public class TestController {
 
     @GetMapping("test2")
     public List<Employee> getEmployees(){
-        // Mingi kood
-        String name = getNameFromSomewhere();
-        try{
-            name = convertName(name);
-        } catch (Exception e){
-            name = null;
-        }
-        repo.save(name);
-        // Veel mingi kood
+        return null;
     }
-
-    @CrossOrigin
-    @GetMapping("test_tet")
-    public void testTest(){
-        accountService.testTest();
-    }
-
 
     @CrossOrigin
     @PostMapping("register")

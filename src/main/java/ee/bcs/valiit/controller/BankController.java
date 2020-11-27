@@ -13,9 +13,9 @@ public class BankController {
     @Autowired
     private AccountService accountService;
 
-    @GetMapping("account_test")
-    public AccountResponse getAccounts(){
-        return accountService.getAccount();
+    @GetMapping("account_test/{id}")
+    public AccountResponse getAccounts(@PathVariable("id") Long id){
+        return accountService.getAccount(id);
     }
 
     @PostMapping("account/{requestName}/{requestAddress}")
