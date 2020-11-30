@@ -3,7 +3,6 @@ package ee.bcs.valiit;
 import ee.bcs.valiit.exception.ApplicationException;
 import ee.bcs.valiit.respository2.AccountRepository2;
 import ee.bcs.valiit.service.AccountService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
@@ -25,23 +24,10 @@ public class TestController {
         this.accountService = accountService;
     }
 
-    @GetMapping("test2")
-    public List<Employee> getEmployees(){
-        // Mingi kood
-        String name = getNameFromSomewhere();
-        try{
-            name = convertName(name);
-        } catch (Exception e){
-            name = null;
-        }
-        repo.save(name);
-        // Veel mingi kood
-    }
-
     @CrossOrigin
-    @GetMapping("test_tet")
+    @GetMapping("test3")
     public void testTest(){
-        accountService.testTest();
+        accountService.addCar();
     }
 
 

@@ -1,11 +1,11 @@
 package ee.bcs.valiit.service;
 
 import ee.bcs.valiit.controller.AccountResponse;
-import ee.bcs.valiit.respository2.AccountEntity;
 import ee.bcs.valiit.respository2.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -29,13 +29,16 @@ public class AccountService {
         jdbcTemplate.queryForObject(sql, paramMap, String.class);
     }
 
-    public void testTest() {
-        accountRepository.getCar(1);
+    @Transactional
+    public void addCar() {
+        accountRepository.addCar();
+        System.out.println("sisestatud");
+        throw new RuntimeException("test viga");
     }
 
+    @Transactional
     public AccountResponse getAccount() {
-        AccountEntity account = accountRepository.getAccount();
-        AccountResponse accountResponse = new AccountResponse(account);
-        return accountResponse;
+        accountRepository.addCar();
+        return null;
     }
 }

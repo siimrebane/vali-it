@@ -2,6 +2,7 @@ package ee.bcs.valiit.controller;
 
 import ee.bcs.valiit.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
@@ -45,5 +46,21 @@ public class BankController {
     public void selectManyRowsSample(){
         String sql = "SELECT * FROM account";
         Map paramMap = new HashMap();
+    }
+
+    @Transactional(readOnly = true)
+    public void transferMoney(String fromAccount,
+                              String toAccount,
+                              BigDecimal amount){
+        withdrawMoney(fromAccount, amount);
+        throw new RuntimeException("ELEKTER LÄKS ÄRA");
+        depositMoney(toAccount, amount);
+    }
+
+    private void depositMoney(String toAccount, BigDecimal amount) {
+    }
+
+    private void withdrawMoney(String fromAccount, BigDecimal amount) {
+        
     }
 }

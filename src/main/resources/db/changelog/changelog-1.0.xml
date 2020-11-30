@@ -4,30 +4,5 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
-    <changeSet  id="1"  author="bob">
-        <createTable  tableName="department">
-            <column  name="id"  type="int" autoIncrement="true">
-                <constraints  primaryKey="true"  nullable="false"/>
-            </column>
-
-
-            
-            <column  name="name"  type="varchar(50)">
-                <constraints  nullable="false"/>
-            </column>
-            <column name="company_id" type="int">
-                <constraints nullable="true" foreignKeyName="fk_department_company"
-                             references="company(id)"/>
-            </column>
-            <column  name="active"  type="boolean"  defaultValueBoolean="true"/>
-        </createTable>
-
-        <addForeignKeyConstraint baseTableName="department"
-                                 baseColumnNames="company_id"
-                                 constraintName="fk_department_company"
-                                 referencedTableName="company"
-                                 referencedColumnNames="id"
-                                 onDelete="SET NULL"/>
-    </changeSet>
 
 </databaseChangeLog>
