@@ -53,7 +53,6 @@ public class BankController {
                               String toAccount,
                               BigDecimal amount){
         withdrawMoney(fromAccount, amount);
-        throw new RuntimeException("ELEKTER LÄKS ÄRA");
         depositMoney(toAccount, amount);
     }
 

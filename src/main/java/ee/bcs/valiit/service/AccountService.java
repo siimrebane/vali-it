@@ -31,14 +31,12 @@ public class AccountService {
 
     @Transactional
     public void addCar() {
-        accountRepository.addCar();
         System.out.println("sisestatud");
         throw new RuntimeException("test viga");
     }
 
     @Transactional
     public AccountResponse getAccount() {
-        accountRepository.addCar();
         return null;
     }
 }

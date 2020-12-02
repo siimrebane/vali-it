@@ -1,8 +1,12 @@
 package ee.bcs.valiit;
 
 import ee.bcs.valiit.exception.ApplicationException;
+import ee.bcs.valiit.repository3.Author;
+import ee.bcs.valiit.repository3.AuthorRepository;
 import ee.bcs.valiit.respository2.AccountRepository2;
 import ee.bcs.valiit.service.AccountService;
+import ee.bcs.valiit.service.AuthorService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
@@ -14,14 +18,18 @@ import java.util.List;
 @RequestMapping("test")
 @RestController
 public class TestController {
-
-    private AccountRepository2 accountRepository2;
+    @Autowired
+    private AuthorRepository authorRepository;
+    @Autowired
     private AccountService accountService;
 
-    public TestController(AccountRepository2 accountRepository2,
-                          AccountService accountService) {
-        this.accountRepository2 = accountRepository2;
-        this.accountService = accountService;
+    @Autowired
+    private AuthorService authorService;
+
+    @GetMapping("hibernate")
+    public AuthorResponse hibernateTest(Integer id){
+        Author author = authorService.getById(id);
+        return new AuthorResponse(author);
     }
 
     @CrossOrigin
