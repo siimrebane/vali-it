@@ -28,6 +28,9 @@
 **Vue JS**: https://drive.google.com/file/d/17qky5pjJOeWVS39UE7Kd9TliqRgyJlp6/view?usp=sharing  
 ### Lisa asjad
 **Email**: https://drive.google.com/file/d/1nmamldf9Rn6u71lvwAUeitR4NlHZ4MDL/view?usp=sharing  
+**Hybernate**: https://drive.google.com/file/d/1wRsE1uiX6sqvcA3pcFyXd-u8kj_HPo4q/view?usp=sharing
+**Building JAR file**: https://drive.google.com/file/d/1bfKXASsZlymAG9FYgNEXfHSqXVgy9UB0/view?usp=sharing  
+**Google cloud**: https://drive.google.com/file/d/1HV1DOzaBUomIn7U_0Skn68t1PKNEdUN7/view?usp=sharing  
 ## Lisaülesanded
 https://www.codingame.com/training/easy/the-descent  
 
