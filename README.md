@@ -1,6 +1,8 @@
 # vali-it
 
 ## Slaidid
+### Kõik slaidid
+https://drive.google.com/drive/folders/1aLi56J6DT-rQ1E1JnLEy9IZiMySzxyU_?usp=sharing  
 ### Java / SQL
 **Sissejuhatus**: https://drive.google.com/file/d/1eRkD-mdtXgaDU__MS0SFKUpktynqHaQD/view?usp=sharing    
 **Muutujad, funktsioonid, tingimuslaused**: https://drive.google.com/file/d/1KA2OI2VfAx91DH4-1RH5C2DjBex6duo7/view?usp=sharing  
