@@ -8,53 +8,36 @@ public class Lesson1MathUtil {
     }
 
     public static void main(String[] args) {
-        // TODO siia saab kirjutada koodi testimiseks
     }
 
+    // TODO tagasta a ja b väikseim väärtus
     public static int min(int a, int b) {
-        // TODO tagasta a ja b väikseim väärtus
-        if (a <= b) {
-            return a;
-        }
-        return b;
+        return 0;
     }
 
+    // TODO tagasta a ja b suurim väärtus
     public static int max(int a, int b) {
-        // TODO tagasta a ja b suurim väärtus
-        if (a > b) {
-            return a;
-        } else if (a < b) {
-            return b;
-        } else {
-            return b;
-        }
+        return 0;
     }
 
+    // TODO tagasta a absoluut arv
     public static int abs(int a) {
-        // TODO tagasta a absoluut arv
-        if (a < 0) {
-            return -a;
-        } else {
-            return a;
-        }
+        return 0;
     }
 
+    // TODO tagasta true, kui a on paaris arv
+    // tagasta false kui a on paaritu arv
     public static boolean isEven(int a) {
-        // TODO tagasta true, kui a on paaris arv
-        // tagasta false kui a on paaritu arv
-        if (a % 2 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return true;
     }
 
+    // TODO tagasta kolmest arvust kõige väiksem
     public static int min(int a, int b, int c) {
-        int sisemine = min(a, b);
-        return min(sisemine, c);
+        return 0;
     }
 
+    // TODO tagasta kolmest arvust kõige suurem
     public static int max(int a, int b, int c) {
-        return max(max(a, b), c);
+        return 0;
     }
 }

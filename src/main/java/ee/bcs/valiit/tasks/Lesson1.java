@@ -36,6 +36,8 @@ public class Lesson1 {
     }
 
     // TODO
+    // Defineeri String tüüpi muutuja mille sisu oleks "\"\\""
+    // Trüki muutuja sisu välja
     public static void excersie4(){
     }
 
