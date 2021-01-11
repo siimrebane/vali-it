@@ -1,15 +1,28 @@
 package ee.bcs.valiit.tasks.solution;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.util.*;
+
 public class Lesson2 {
 
     public static void main(String[] args) {
-        // TODO siia saab kirjutada koodi testimiseks
+        exercise1();
     }
 
     // TODO loo 10 elemendile täisarvude massiv
     // TODO loe sisse konsoolist 10 täisarvu
     // TODO trüki arvud välja vastupidises järiekorras
     public static void exercise1() {
+        int[] array = new int[10];
+        Scanner scanner = new Scanner(System.in);
+        for(int i = 0; i < 10; i++){
+            System.out.println("Sisesta number: ");
+            array[i] = scanner.nextInt();
+        }
+        for(int i = 9; i >= 0; i--){
+            System.out.print(array[i] + " ");
+        }
     }
 
     // TODO prindi välja x esimest paaris arvu
@@ -45,11 +58,12 @@ public class Lesson2 {
         return 0;
     }
 
-    public static void exercise5() {
+    public static String exercise5(int x, int y) {
         // https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=36
         // TODO 1 (tee alamfunktsioon) mis leiab 3n+1 sequenci pikkuse
         // kui on paaris / 2 kui on paaritu *3+1
         // TODO 2 tee tsükkel mis leiab i -> j kõige suurema tsükkli pikkuse
+        return "";
     }
 
 
