@@ -1,19 +1,24 @@
-package ee.bcs.valiit.tasks;
+package ee.bcs.valiit.tasks.solution;
 
 public class Lesson1MathUtil {
     private String test;
 
-    // TODO kirjuta ise (if/else) ära kasuta java.lang.Math
     public Lesson1MathUtil(String test) {
         this.test = test;
     }
 
     public static void main(String[] args) {
+        System.out.println(min(3, 5));
+        System.out.println(min(-1, -9));
     }
 
     // TODO tagasta a ja b väikseim väärtus
     public static int min(int a, int b) {
-        return 0;
+        if(a < b){
+            return a;
+        } else {
+            return b;
+        }
     }
 
     // TODO tagasta a ja b suurim väärtus

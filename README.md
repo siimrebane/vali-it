@@ -34,14 +34,13 @@ https://drive.google.com/drive/folders/1aLi56J6DT-rQ1E1JnLEy9IZiMySzxyU_?usp=sha
 **Building JAR file**: https://drive.google.com/file/d/1bfKXASsZlymAG9FYgNEXfHSqXVgy9UB0/view?usp=sharing  
 **Google cloud**: https://drive.google.com/file/d/1HV1DOzaBUomIn7U_0Skn68t1PKNEdUN7/view?usp=sharing  
 
-## Lisaülesanded (vanad)
-https://www.codingame.com/training/easy/the-descent  
-
-https://www.codingame.com/training/medium/skynet-revolution-episode-1  
-https://www.codingame.com/training/medium/don't-panic-episode-1  
-
-https://www.codingame.com/training/hard/skynet-revolution-episode-2  
-https://www.codingame.com/training/hard/don't-panic-episode-2  
+## Lisaülesanded
+### Raskus 8
+https://www.codewars.com/kata/57d814e4950d8489720008db  
+### Raskus 7
+https://www.codewars.com/kata/5390bac347d09b7da40006f6
+### Raskus 6
+https://www.codewars.com/kata/517abf86da9663f1d2000003  
 
 ## Testid (vanad)
 **Test 1 (09.11.2020)**:   
