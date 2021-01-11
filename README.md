@@ -34,13 +34,16 @@ https://drive.google.com/drive/folders/1aLi56J6DT-rQ1E1JnLEy9IZiMySzxyU_?usp=sha
 **Building JAR file**: https://drive.google.com/file/d/1bfKXASsZlymAG9FYgNEXfHSqXVgy9UB0/view?usp=sharing  
 **Google cloud**: https://drive.google.com/file/d/1HV1DOzaBUomIn7U_0Skn68t1PKNEdUN7/view?usp=sharing  
 
-## Lisaülesanded
+## Lisaülesanded (väiksem number = raskem ülesanne)
 ### Raskus 8
 https://www.codewars.com/kata/57d814e4950d8489720008db  
 ### Raskus 7
 https://www.codewars.com/kata/5390bac347d09b7da40006f6
 ### Raskus 6
 https://www.codewars.com/kata/517abf86da9663f1d2000003  
+https://www.codewars.com/kata/554ca54ffa7d91b236000023  
+### Raskus 5
+https://www.codewars.com/kata/59ccf051dcc4050f7800008f  
 
 ## Testid (vanad)
 **Test 1 (09.11.2020)**:   
