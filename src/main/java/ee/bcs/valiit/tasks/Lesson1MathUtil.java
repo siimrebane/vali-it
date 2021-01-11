@@ -8,13 +8,7 @@ public class Lesson1MathUtil {
     }
 
     public static void main(String[] args) {
-        System.out.println(min(3, 6));
-        System.out.println(min(3, -6));
-        String a = "asdf";
-        String b = "asdf";
-        if (a == b) {
-            System.out.println("test");
-        }
+        // TODO siia saab kirjutada koodi testimiseks
     }
 
     public static int min(int a, int b) {

@@ -33,7 +33,8 @@ https://drive.google.com/drive/folders/1aLi56J6DT-rQ1E1JnLEy9IZiMySzxyU_?usp=sha
 **Hybernate**: https://drive.google.com/file/d/1wRsE1uiX6sqvcA3pcFyXd-u8kj_HPo4q/view?usp=sharing
 **Building JAR file**: https://drive.google.com/file/d/1bfKXASsZlymAG9FYgNEXfHSqXVgy9UB0/view?usp=sharing  
 **Google cloud**: https://drive.google.com/file/d/1HV1DOzaBUomIn7U_0Skn68t1PKNEdUN7/view?usp=sharing  
-## Lisaülesanded
+
+## Lisaülesanded (vanad)
 https://www.codingame.com/training/easy/the-descent  
 
 https://www.codingame.com/training/medium/skynet-revolution-episode-1  
@@ -42,11 +43,11 @@ https://www.codingame.com/training/medium/don't-panic-episode-1
 https://www.codingame.com/training/hard/skynet-revolution-episode-2  
 https://www.codingame.com/training/hard/don't-panic-episode-2  
 
-## Testid
+## Testid (vanad)
 **Test 1 (09.11.2020)**:   
 **Test 2 (16.11.2020)**: https://drive.google.com/file/d/1BQoDmQYq2fTDqV4eHAbFbVBk9C-bWg9a/view?usp=sharing  
 **Test 3 (23.11.2020)**: https://drive.google.com/file/d/1SjuCmoci_Zugl2qPl9QCFV79qYMsD3F2/view?usp=sharing  
 **Test 4 (30.11.2020)**:  
 
-## Kodune lugemine
+## Kodune lugemine (vanad)
 * https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html  
