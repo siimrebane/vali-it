@@ -3,6 +3,7 @@ package ee.bcs.valiit.tasks.solution;
 public class Lesson3 {
     public static void main(String[] args) {
         sum(new int[]{1, 2, 3});
+        System.out.println(factorial(5));
     }
 
     public static int sum(int[] x){
@@ -14,11 +15,11 @@ public class Lesson3 {
     }
 
     public static int factorial(int x) {
-        // TODO tagasta x faktoriaal.
-        // Näiteks
-        // x = 5
-        // return 5*4*3*2*1 = 120
-        return 0;
+        int sum = 1;
+        for(int i = 1; i < x; i++){
+            sum *= i;
+        }
+        return sum;
     }
 
     public static int[] sort(int[] a) {
