@@ -44,6 +44,9 @@ https://www.codewars.com/kata/517abf86da9663f1d2000003
 https://www.codewars.com/kata/554ca54ffa7d91b236000023  
 ### Raskus 5
 https://www.codewars.com/kata/59ccf051dcc4050f7800008f  
+https://www.codewars.com/kata/5a24a35a837545ab04001614   
+### Raskus 4
+https://www.codewars.com/kata/5819f1c3c6ab1b2b28000624  
 
 ## Testid (vanad)
 **Test 1 (09.11.2020)**:   
