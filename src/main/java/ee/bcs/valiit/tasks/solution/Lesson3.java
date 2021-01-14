@@ -1,9 +1,10 @@
 package ee.bcs.valiit.tasks.solution;
 
+import java.util.Arrays;
+
 public class Lesson3 {
     public static void main(String[] args) {
-        sum(new int[]{1, 2, 3});
-        System.out.println(factorial(5));
+        System.out.println(Arrays.toString(sort(new int[] {5, -6, 9, 12, 7})));
     }
 
     public static int sum(int[] x){
@@ -22,10 +23,18 @@ public class Lesson3 {
         return sum;
     }
 
+    // 5, -6, 9, 12, 7
     public static int[] sort(int[] a) {
-        // TODO sorteeri massiiv suuruse järgi.
-        // TODO kasuta tsükleid, ära kasuta ühtegi olemasolevat sort funktsiooni
-        return new int[0];
+        for(int j = 0; j < a.length ;j++){
+            for(int i = 0; i < a.length -1;i++){
+                if(a[i] > a[i+1]){
+                    int tmp = a[i];
+                    a[i] = a[i+1];
+                    a[i+1] = tmp;
+                }
+            }
+        }
+        return a;
     }
 
     public static String reverseString(String a) {
