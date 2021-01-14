@@ -42,6 +42,7 @@ https://www.codewars.com/kata/59fca81a5712f9fa4700159a
 ### Raskus 7
 https://www.codewars.com/kata/5390bac347d09b7da40006f6
 https://www.codewars.com/kata/5fc4349ddb878a0017838d0f
+https://www.codewars.com/kata/5a090c4e697598d0b9000004
 ### Raskus 6
 https://www.codewars.com/kata/517abf86da9663f1d2000003  
 https://www.codewars.com/kata/554ca54ffa7d91b236000023  
