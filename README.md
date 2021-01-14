@@ -39,10 +39,11 @@ https://drive.google.com/drive/folders/1aLi56J6DT-rQ1E1JnLEy9IZiMySzxyU_?usp=sha
 https://www.codewars.com/kata/57d814e4950d8489720008db  
 https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1  
 https://www.codewars.com/kata/59fca81a5712f9fa4700159a  
+https://www.codewars.com/kata/5b73fe9fb3d9776fbf00009e  
 ### Raskus 7
-https://www.codewars.com/kata/5390bac347d09b7da40006f6
-https://www.codewars.com/kata/5fc4349ddb878a0017838d0f
-https://www.codewars.com/kata/5a090c4e697598d0b9000004
+https://www.codewars.com/kata/5390bac347d09b7da40006f6  
+https://www.codewars.com/kata/5fc4349ddb878a0017838d0f  
+https://www.codewars.com/kata/5a090c4e697598d0b9000004  
 ### Raskus 6
 https://www.codewars.com/kata/517abf86da9663f1d2000003  
 https://www.codewars.com/kata/554ca54ffa7d91b236000023  
