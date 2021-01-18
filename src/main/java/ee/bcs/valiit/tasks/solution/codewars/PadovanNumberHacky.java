@@ -1,7 +1,5 @@
 package ee.bcs.valiit.tasks.solution.codewars;
 
-import liquibase.exception.DatabaseException;
-
 import java.math.BigInteger;
 import java.util.Date;
 import java.util.HashMap;
