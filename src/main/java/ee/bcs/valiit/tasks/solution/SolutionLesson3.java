@@ -1,6 +1,6 @@
 package ee.bcs.valiit.tasks.solution;
 
-public class Lesson3 {
+public class SolutionLesson3 {
     public static void main(String[] args) {
 //        System.out.println(Arrays.toString(sort2(new int[]{5, -6, 9, 12, 7})));
         System.out.println(isPrime(2));

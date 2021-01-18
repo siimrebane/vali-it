@@ -2,7 +2,7 @@ package ee.bcs.valiit.tasks.solution;
 
 import java.util.Scanner;
 
-public class Lesson2 {
+public class SolutionLesson2 {
 
     public static void main(String[] args) {
         System.out.println(exercise5(1, 10));

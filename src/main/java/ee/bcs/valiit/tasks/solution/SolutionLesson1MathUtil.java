@@ -1,9 +1,9 @@
 package ee.bcs.valiit.tasks.solution;
 
-public class Lesson1MathUtil {
+public class SolutionLesson1MathUtil {
     private String test;
 
-    public Lesson1MathUtil(String test) {
+    public SolutionLesson1MathUtil(String test) {
         this.test = test;
     }
 
