@@ -1,5 +1,8 @@
 package ee.bcs.valiit.tasks.solution;
 
+/*
+//          DON'T CHANGE THIS FILE
+*/
 public class SolutionLesson3 {
     public static void main(String[] args) {
 //        System.out.println(Arrays.toString(sort2(new int[]{5, -6, 9, 12, 7})));

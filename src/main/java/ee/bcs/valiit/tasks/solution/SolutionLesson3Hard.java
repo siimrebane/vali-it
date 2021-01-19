@@ -5,6 +5,9 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Scanner;
 
+/*
+//          DON'T CHANGE THIS FILE
+*/
 public class SolutionLesson3Hard {
     public static void main(String[] args) {
         System.out.println(morseCode("sos"));

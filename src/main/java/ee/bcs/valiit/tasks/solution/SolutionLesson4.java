@@ -4,6 +4,9 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Scanner;
 
+/*
+//          DON'T CHANGE THIS FILE
+*/
 public class SolutionLesson4 {
     // Store account nr as a key and account balance as value
     static HashMap<String, BigDecimal> accountBalanceMap = new HashMap<>();

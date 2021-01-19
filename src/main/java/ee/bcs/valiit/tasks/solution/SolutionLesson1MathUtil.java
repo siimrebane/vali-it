@@ -1,5 +1,8 @@
 package ee.bcs.valiit.tasks.solution;
 
+/*
+//          DON'T CHANGE THIS FILE
+*/
 public class SolutionLesson1MathUtil {
     private String test;
 
