@@ -108,7 +108,7 @@ public class SolutionLesson2 {
         return x + " " + y + " " + maxLength;
     }
     
-    public static int seqLength(int n) {
+    private static int seqLength(int n) {
         int count = 1;
         while(n > 1){
             count++;
