@@ -1,6 +1,7 @@
 package ee.bcs.valiit.tasks.solution;
 
 public class SolutionEmployee {
+    private Integer id;
     private String name;
     private String address;
     private int age;
@@ -29,6 +30,15 @@ public class SolutionEmployee {
 
     public SolutionEmployee setAge(int age) {
         this.age = age;
+        return this;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public SolutionEmployee setId(Integer id) {
+        this.id = id;
         return this;
     }
 }

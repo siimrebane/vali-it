@@ -1,9 +1,12 @@
 package ee.bcs.valiit.tasks.solution;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.web.bind.annotation.*;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -40,14 +43,31 @@ public class SolutionEmployeeController {
         jdbcTemplate.update(sql, paramMap);
     }
 
-    @PostMapping("")
-    public void addEmployee(@RequestBody SolutionEmployee employee){
-        employeesList.add(employee);
+    // http://localhost:8080/solution/employee/name?id=2
+    @GetMapping("name")
+    public String addEmployee(int id){
+        String sql = "SELECT name FROM employee WHERE id = :idParam";
+        Map<String, Object> paramMap = new HashMap<>();
+        paramMap.put("idParam", id);
+        return jdbcTemplate.queryForObject(sql, paramMap, String.class);
     }
 
-    @GetMapping("")
+    // http://localhost:8080/solution/employee
+    @GetMapping()
     public List<SolutionEmployee> getEmployees(){
-        return employeesList;
+        String sql = "SELECT * FROM employee";
+        List<SolutionEmployee> result = jdbcTemplate.query(sql, new HashMap<>(), new SolutionEmployeeRowMapper());
+        return result;
     }
 
+    private class SolutionEmployeeRowMapper implements RowMapper<SolutionEmployee> {
+        @Override
+        public SolutionEmployee mapRow(ResultSet resultSet, int i) throws SQLException {
+            SolutionEmployee employee = new SolutionEmployee();
+            employee.setName(resultSet.getString("name"));
+            employee.setAddress(resultSet.getString("address"));
+            employee.setId(resultSet.getInt("id"));
+            return employee;
+        }
+    }
 }
