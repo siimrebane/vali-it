@@ -1,5 +1,6 @@
-package ee.bcs.valiit.tasks.solution;
+package ee.bcs.valiit.tasks.solution.controller;
 
+import ee.bcs.valiit.tasks.solution.SolutionEmployee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
