@@ -20,7 +20,7 @@ public class BankController2 {
 
     HashMap<String, BigDecimal> accountMap = new HashMap<>();
 
-    // http://localhost:8080/solution/bank/createAccount?accountNr=EE123
+    // http://localhost:8080/bank2/createAccount?accountNr=EE123
     @GetMapping("createAccount")
     public void createAccount(@RequestParam("accountNr") String accountNr){
         String sql = "INSERT INTO account (account_number, balance) VALUES (:accountNumber, :balance)";
@@ -31,7 +31,7 @@ public class BankController2 {
         //accountMap.put(accountNr, BigDecimal.ZERO);
     }
 
-    // http://localhost:8080/solution/bank/accountBalance?accountNr=EE123
+    // http://localhost:8080/bank2/accountBalance?accountNr=EE123
     @GetMapping("accountBalance")
     public BigDecimal accountBalance(@RequestParam("accountNr") String accountNr){
         String sql = "SELECT balance FROM account where account_number = :accountNumber";
@@ -41,7 +41,7 @@ public class BankController2 {
         // return accountMap.get(accountNr);
     }
 
-    // http://localhost:8080/solution/bank/depositMoney?accountNr=EE123&amount=12
+    // http://localhost:8080/bank2/depositMoney?accountNr=EE123&amount=12
     @GetMapping("depositMoney")
     public void depositMoney(@RequestParam("accountNr") String accountNr, @RequestParam("amount") BigDecimal amount){
         // BigDecimal balance = accountMap.get(accountNr);
@@ -60,7 +60,7 @@ public class BankController2 {
         jdbcTemplate.update(sql2, paramMap2);
     }
 
-    // http://localhost:8080/solution/bank/withdrawMoney?accountNr=EE123&amount=12
+    // http://localhost:8080/bank2/withdrawMoney?accountNr=EE123&amount=12
     @GetMapping("withdrawMoney")
     public void withdrawMoney(@RequestParam("accountNr") String accountNr, @RequestParam("amount") BigDecimal amount){
         //BigDecimal balance = accountMap.get(accountNr);
@@ -82,7 +82,7 @@ public class BankController2 {
         jdbcTemplate.update(sql2, paramMap2);
     }
 
-    // http://localhost:8080/solution/bank/transferMoney?fromAccount=EE123&toAccount=EE124&amount=12
+    // http://localhost:8080/bank2/transferMoney?fromAccount=EE123&toAccount=EE124&amount=12
     @GetMapping("transferMoney")
     public void transferMoney(@RequestParam("fromAccount") String fromAccount,
                               @RequestParam("toAccount") String toAccount,
