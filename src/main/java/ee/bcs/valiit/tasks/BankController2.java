@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 
-@RequestMapping("solution/bank")
+@RequestMapping("bank2")
 @RestController
 public class BankController2 {
 
