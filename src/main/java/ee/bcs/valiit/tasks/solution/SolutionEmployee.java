@@ -4,7 +4,7 @@ public class SolutionEmployee {
     private Integer id;
     private String name;
     private String address;
-    private int age;
+    private String phone;
 
     public String getName() {
         return name;
@@ -24,21 +24,21 @@ public class SolutionEmployee {
         return this;
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public SolutionEmployee setAge(int age) {
-        this.age = age;
-        return this;
-    }
-
     public Integer getId() {
         return id;
     }
 
     public SolutionEmployee setId(Integer id) {
         this.id = id;
+        return this;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public SolutionEmployee setPhone(String phone) {
+        this.phone = phone;
         return this;
     }
 }
