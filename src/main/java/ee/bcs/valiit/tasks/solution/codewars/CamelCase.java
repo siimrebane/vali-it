@@ -1,7 +1,7 @@
 package ee.bcs.valiit.tasks.solution.codewars;
 
 // https://www.codewars.com/kata/517abf86da9663f1d2000003
-public class CodeWars {
+public class CamelCase {
     public static void main(String[] args) {
         System.out.println(toCamelCase("the-stealth-warrior")); // returns "theStealthWarrior"
         System.out.println(toCamelCase("The_Stealth_Warrior")); // returns "TheStealthWarrior"
