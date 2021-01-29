@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+          <p>Min value</p>
+          a: <input type="number" id="min_a">
+          b: <input type="number" id="min_b">
+          <button id="min_button" type="button">Min</button>
+          vastus: <input id="min_answer" disabled/>
+          <br />
+          <button id="make_request_button">Make request</button>
+    </div>
+<script>
+    let newEmployee = {
+        name: 'Siim',
+        address: 'Tallinn'
+    }
+
+    let postUrl = '/solution/employee/test';
+    let getUrl = '/solution/employee/name?id=2';
+
+    function makeRequest(){
+        fetch(postUrl,
+            {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(newEmployee)
+            })
+            .then(result => result.json())
+            .then(function(result){
+                // TODO write code
+                alert(result.name);
+            });
+    }
+
+    let requestButton = document.getElementById("make_request_button");
+    requestButton.onclick = makeRequest;
+
+
+    let min_a = document.getElementById("min_a");
+    let min_b = document.getElementById("min_b");
+    let min_answer = document.getElementById("min_answer");
+    function pressButtonFunction() {
+        let a = Number(min_a.value);
+        let b = Number(min_b.value);
+        if(a < b){
+            min_answer.value = a;
+        } else {
+            min_answer.value = b;
+        }
+    }
+
+    let element = document.getElementById("min_button");
+    element.addEventListener("click", pressButtonFunction)
+
+    let x = "abs" - "asdf";
+
+    if(0 == " \r\n"){
+        console.log("true")
+    } else {
+        console.log("false")
+    }
+</script>
+</body>
+</html>
+
+
+
+
+
+
