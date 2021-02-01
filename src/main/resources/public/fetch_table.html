@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+
+        <table id="employeesTable">
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>aadress</th>
+                <th>phone</th>
+            </tr>
+        </table>
+        <button id="allClientButton">Küsi kõik kliendid</button>
+    </div>
+<script>
+    function getAllClients(){
+        fetch("/solution/employee")
+            .then(result => result.json())
+            .then(function(result){
+                let tableElement = document.getElementById("employeesTable");
+                tableElement.innerHTML = "";
+                for (let element of result) {
+                    let newRowElement = document.createElement("tr");
+                    tableElement.appendChild(newRowElement);
+                    // id
+                    let newCellElement = document.createElement("td");
+                    newCellElement.innerText = element.id;
+                    newRowElement.appendChild(newCellElement)
+                    // name
+                    newCellElement = document.createElement("td");
+                    newCellElement.innerText = element.name;
+                    newRowElement.appendChild(newCellElement)
+                    // address
+                    newCellElement = document.createElement("td");
+                    newCellElement.innerText = element.address;
+                    newRowElement.appendChild(newCellElement)
+                    // phone
+                    newCellElement = document.createElement("td");
+                    newCellElement.innerText = element.phone;
+                    newRowElement.appendChild(newCellElement)
+                }
+                console.log(result);
+            })
+    }
+
+    let button = document.getElementById("allClientButton");
+    button.onclick = getAllClients;
+</script>
+</body>
+</html>
+
+
+
+
+
+
