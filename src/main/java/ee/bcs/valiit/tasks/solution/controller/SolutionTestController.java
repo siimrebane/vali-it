@@ -1,5 +1,8 @@
 package ee.bcs.valiit.tasks.solution.controller;
 
+import ee.bcs.valiit.tasks.solution.service.SolutionTestService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.AutoConfigureOrder;
 import org.springframework.web.bind.annotation.*;
 
 /*
@@ -9,6 +12,9 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("solution")
 @RestController
 public class SolutionTestController {
+
+    @Autowired
+    private SolutionTestService testService;
 
     // localhost:8080/solution/test/siim?name=rebane
     @GetMapping("test/{name}")
@@ -40,5 +46,11 @@ public class SolutionTestController {
     @GetMapping("fib")
     public int ex4Query(@RequestParam("a") int a){
         return a;
+    }
+
+    @GetMapping("test/exception")
+    public String test(){
+        testService.test();
+        return "OK";
     }
 }

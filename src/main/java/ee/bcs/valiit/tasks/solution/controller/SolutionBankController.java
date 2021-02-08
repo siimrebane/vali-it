@@ -1,7 +1,10 @@
 package ee.bcs.valiit.tasks.solution.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+import org.springframework.jdbc.support.GeneratedKeyHolder;
+import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -22,13 +25,14 @@ public class SolutionBankController {
 
     // http://localhost:8080/solution/bank/createAccount?accountNr=EE123
     @GetMapping("createAccount")
-    public void createAccount(@RequestParam("accountNr") String accountNr){
+    public Integer createAccount(@RequestParam("accountNr") String accountNr){
         String sql = "INSERT INTO account (account_number, balance) VALUES (:accountNumber, :balance)";
         Map<String, Object> paramMap = new HashMap();
         paramMap.put("accountNumber", accountNr);
         paramMap.put("balance", BigDecimal.ZERO);
-        jdbcTemplate.update(sql, paramMap);
-        //accountMap.put(accountNr, BigDecimal.ZERO);
+        KeyHolder keyHolder = new GeneratedKeyHolder();
+        jdbcTemplate.update(sql, new MapSqlParameterSource(paramMap), keyHolder);
+        return (Integer) keyHolder.getKeys().get("id");
     }
 
     // http://localhost:8080/solution/bank/accountBalance?accountNr=EE123
@@ -54,7 +58,7 @@ public class SolutionBankController {
 
         // accountMap.put(accountNr, newBalance);
         String sql2 = "UPDATE account SET balance = :balance WHERE account_number = :accountNumber";
-        Map<String, Object> paramMap2 = new HashMap();
+        Map<String, Object> paramMap2 = new HashMap<>();
         paramMap2.put("accountNumber", accountNr);
         paramMap2.put("balance", newBalance);
         jdbcTemplate.update(sql2, paramMap2);

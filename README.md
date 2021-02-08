@@ -62,3 +62,5 @@ https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 
 ## Kodune lugemine
 * https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html  
+
+...

@@ -1,5 +1,6 @@
 package ee.bcs.valiit.tasks.solution.controller;
 
+import ee.bcs.valiit.tasks.solution.DemoApplicationException;
 import ee.bcs.valiit.tasks.solution.SolutionEmployee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.RowMapper;
@@ -36,6 +37,9 @@ public class SolutionEmployeeController {
     // http://localhost:8080/solution/employee/test
     @PostMapping("test")
     public void test2(@RequestBody SolutionEmployee employee){
+        if(employee.getName().length() < 2){
+            throw new DemoApplicationException("Nimi peab olema vähemalt 2 tähemärki");
+        }
         String sql = "INSERT INTO employee (name, address) VALUES (:nameParameter, :addressParameter)";
         Map<String, Object> paramMap = new HashMap<>();
         paramMap.put("nameParameter", employee.getName());
@@ -53,6 +57,7 @@ public class SolutionEmployeeController {
     }
 
     // http://localhost:8080/solution/employee
+    @CrossOrigin
     @GetMapping()
     public List<SolutionEmployee> getEmployees(){
         String sql = "SELECT * FROM employee";

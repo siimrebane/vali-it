@@ -33,4 +33,13 @@
             <column name="phone" type="text"/>
         </createTable>
     </changeSet>
+    <changeSet id="2020-01-28 add account table" author="Siim Rebane">
+        <createTable tableName="account">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="account_number" type="text"/>
+            <column name="balance" type="numeric(10,2)"/>
+        </createTable>
+    </changeSet>
 </databaseChangeLog>
