@@ -40,6 +40,7 @@ class Lesson1Test {
         assertEquals(2, Lesson1.min3(2,2,4));
         assertEquals(2, Lesson1.min3(2,4,4));
         assertEquals(2, Lesson1.min3(3,2,4));
+        assertEquals(1, Lesson1.min3(2,1,4));
     }
 
     @Test
@@ -48,5 +49,8 @@ class Lesson1Test {
         assertEquals(4, Lesson1.max3(3,3,4));
         assertEquals(4, Lesson1.max3(2,4,4));
         assertEquals(4, Lesson1.max3(3,2,4));
+        assertEquals(2, Lesson1.max3(3,2,4));
+
+
     }
 }
