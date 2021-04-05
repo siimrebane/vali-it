@@ -1,44 +1,41 @@
 package ee.bcs.valiit.tasks;
 
+// TODO kasuta if/else. Ära kasuta Math librarit
 public class Lesson1 {
-
     public static void main(String[] args) {
-        excersie1();
-        excersie2();
-        excersie3();
-        excersie4();
+        // Siia sisse võid sa kirjutada koodi, et testida kas su meetodid töötavad ilusti
+        // Katseta IntelliJ shortcuti. Olles intelliJ kirjuta "sout" ja siis vajuta enter
+        System.out.println(min(1, 3)); // trükib miinimumi 1 ja 3
     }
 
-    // TODO
-    // defineeri 3 muutujat a = 1, b = 1, c = 3
-    // Prindi välja a==b ja a==c
-    // Lisa rida a = c
-    // Prindi välja a==b ja a==c, mis muutus???
-    public static void excersie1(){
+    // TODO tagasta a ja b väikseim väärtus
+    public static int min(int a, int b) {
+        return 0;
     }
 
-    // TODO
-    // Loo muutujad x1 = 10 ja x2 = 20, vali sobiv andmetüüp
-    // Tekita muutuja y1 = ++x1, trüki välja nii x1 kui y1
-    // Tekita muutuja y2 = x2++, trüki välja nii x2 ja y2
-    // Analüüsi tulemusi
-    public static void excersie2(){
+    // TODO tagasta a ja b suurim väärtus
+    public static int max(int a, int b) {
+        return 0;
     }
 
-    // TODO
-    // Loo arvulised muutujad
-    // a = 18 % 3
-    // b = 19 % 3
-    // c = 20 % 3
-    // d = 21 % 3
-    // Prindi välja kõigi muutujate väärtused
-    public static void excersie3(){
+    // TODO tagasta a absoluut arv
+    public static int abs(int a) {
+        return 0;
     }
 
-    // TODO
-    // Defineeri String tüüpi muutuja mille sisu oleks "\"\\""
-    // Trüki muutuja sisu välja
-    public static void excersie4(){
+    // TODO tagasta true, kui a on paaris arv
+    // tagasta false kui a on paaritu arv
+    public static boolean isEven(int a) {
+        return true;
     }
 
+    // TODO tagasta kolmest arvust kõige väiksem
+    public static int min3(int a, int b, int c) {
+        return 0;
+    }
+
+    // TODO tagasta kolmest arvust kõige suurem
+    public static int max3(int a, int b, int c) {
+        return 0;
+    }
 }
