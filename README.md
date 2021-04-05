@@ -31,8 +31,8 @@
 
 ## Lisaülesanded (väiksem number = raskem ülesanne)
 ### Raskus 8
-https://www.codewars.com/kata/57d814e4950d8489720008db  
 https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1  
+https://www.codewars.com/kata/57d814e4950d8489720008db  
 https://www.codewars.com/kata/59fca81a5712f9fa4700159a  
 https://www.codewars.com/kata/5b73fe9fb3d9776fbf00009e  
 ### Raskus 7
