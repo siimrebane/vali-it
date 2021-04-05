@@ -40,7 +40,7 @@ class Lesson1Test {
         assertEquals(2, Lesson1.min3(2,2,4));
         assertEquals(2, Lesson1.min3(2,4,4));
         assertEquals(2, Lesson1.min3(3,2,4));
-        assertEquals(1, Lesson1.min3(2,1,4));
+        assertEquals(1, Lesson1.min3(1,2,4));
     }
 
     @Test
