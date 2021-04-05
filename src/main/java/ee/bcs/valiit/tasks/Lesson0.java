@@ -6,10 +6,6 @@ public class Lesson0 {
         excersie2();
         excersie3();
         excersie4();
-        // define variable a that doesn't have a value
-        String a = null;
-        // causes NullPointerException
-        System.out.println(a.length());
     }
 
     // TODO

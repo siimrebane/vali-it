@@ -4,8 +4,8 @@
 ### Kõik slaidid
 
 ### Java / SQL
-**Sissejuhatus**:  
-**Muutujad, funktsioonid, tingimuslaused**:  
+**Sissejuhatus**: https://drive.google.com/file/d/1QYviLJg4qlorC7vzV4zzgkh85JPvOUDg/view?usp=sharing  
+**Muutujad, funktsioonid, tingimuslaused**: https://drive.google.com/file/d/1QYviLJg4qlorC7vzV4zzgkh85JPvOUDg/view?usp=sharing  
 **Konsool, massiivid, tsüklid**:  
 **GIT**:  
 **Json, REST, Web**:  
