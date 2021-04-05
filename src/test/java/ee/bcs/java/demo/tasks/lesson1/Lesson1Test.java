@@ -11,12 +11,15 @@ class Lesson1Test {
     void min() {
         assertEquals(2, Lesson1.min(2, 3));
         assertEquals(-3, Lesson1.min(2, -3));
+        assertEquals(-3, Lesson1.min(-3, -3));
     }
 
     @Test
     void max() {
         assertEquals(3, Lesson1.max(2, 3));
         assertEquals(2, Lesson1.max(2, -3));
+        assertEquals(-3, Lesson1.min(-3, -3));
+
     }
 
     @Test
@@ -32,16 +35,18 @@ class Lesson1Test {
     }
 
     @Test
-    void testMin() {
+    void min3() {
         assertEquals(2, Lesson1.min3(2,3,4));
         assertEquals(2, Lesson1.min3(2,2,4));
         assertEquals(2, Lesson1.min3(2,4,4));
+        assertEquals(2, Lesson1.min3(3,2,4));
     }
 
     @Test
-    void testMax() {
+    void max3() {
         assertEquals(4, Lesson1.max3(2,3,4));
         assertEquals(4, Lesson1.max3(3,3,4));
         assertEquals(4, Lesson1.max3(2,4,4));
+        assertEquals(4, Lesson1.min3(3,2,4));
     }
 }
