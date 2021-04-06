@@ -6,11 +6,51 @@ import java.util.Scanner;
 public class SolutionLesson1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Sisesta a");
-        int a = scanner.nextInt();
-        System.out.println("Sisesta b");
-        int b = scanner.nextInt();
-        System.out.println(min(a, b));
+        System.out.println("Sisesta millist funktsiooni tahad käivitada");
+        System.out.println("1 - min");
+        System.out.println("2 - max");
+        System.out.println("3 - abs");
+        System.out.println("4 - isEven");
+        System.out.println("5 - min3");
+        System.out.println("6 - max3");
+        String functionNr = scanner.nextLine();
+        if (functionNr.equalsIgnoreCase("min") || functionNr.equals("1")) {
+            System.out.println("Sisesta 2 arvu");
+            int a = scanner.nextInt();
+            int b = scanner.nextInt();
+            System.out.println("Min on: " + min(a, b));
+        } else if (functionNr.equalsIgnoreCase("max") || functionNr.equals("2")) {
+            System.out.println("Sisesta 2 arvu");
+            int a = scanner.nextInt();
+            int b = scanner.nextInt();
+            System.out.println("Max on: " + max(a, b));
+        } else if (functionNr.equalsIgnoreCase("abs") || functionNr.equals("3")) {
+            System.out.println("Sisesta number");
+            int a = scanner.nextInt();
+            System.out.println("abs: " + abs(a));
+        } else if (functionNr.equalsIgnoreCase("isEven") || functionNr.equals("4")) {
+            System.out.println("Sisesta number");
+            int a = scanner.nextInt();
+            if (isEven(a)) {
+                System.out.println("Tegu on paaris arvuga");
+            } else {
+                System.out.println("Tegu on paaritu arvuga");
+            }
+        } else if (functionNr.equalsIgnoreCase("min3") || functionNr.equals("5")) {
+            System.out.println("Sisesta 3 arvu");
+            int a = scanner.nextInt();
+            int b = scanner.nextInt();
+            int c = scanner.nextInt();
+            System.out.println("Min on: " + min3(a, b, c));
+        } else if (functionNr.equalsIgnoreCase("max3") || functionNr.equals("6")) {
+            System.out.println("Sisesta 3 arvu");
+            int a = scanner.nextInt();
+            int b = scanner.nextInt();
+            int c = scanner.nextInt();
+            System.out.println("Max on: " + max3(a, b, c));
+        } else {
+            System.out.println("Valitud number ei olnud 1-6");
+        }
     }
 
     // TODO tagasta a ja b väikseim väärtus
@@ -51,9 +91,9 @@ public class SolutionLesson1 {
 
     // TODO tagasta kolmest arvust kõige väiksem
     public static int min3(int a, int b, int c) {
-        if(a <= b && a <= c){
+        if (a <= b && a <= c) {
             return a;
-        } else if(b <= a && b <= c){
+        } else if (b <= a && b <= c) {
             return b;
         } else {
             return c;
