@@ -1,11 +1,16 @@
 package ee.bcs.valiit.solution;
 
+import java.util.Scanner;
+
 // TODO kasuta if/else. Ära kasuta Math librarit
 public class SolutionLesson1 {
     public static void main(String[] args) {
-        // Siia sisse võid sa kirjutada koodi, et testida kas su meetodid töötavad ilusti
-        // Katseta IntelliJ shortcuti. Olles intelliJ kirjuta "sout" ja siis vajuta enter
-        System.out.println(min(1, 3)); // trükib miinimumi 1 ja 3
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Sisesta a");
+        int a = scanner.nextInt();
+        System.out.println("Sisesta b");
+        int b = scanner.nextInt();
+        System.out.println(min(a, b));
     }
 
     // TODO tagasta a ja b väikseim väärtus
