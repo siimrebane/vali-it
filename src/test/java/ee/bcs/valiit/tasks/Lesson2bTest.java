@@ -39,10 +39,10 @@ class Lesson2bTest {
 
     @Test
     void yl3() {
-        int[] answer1 = Lesson2b.decreasingArray(0);
+        int[] answer1 = Lesson2b.yl3(0);
         int[] expected1 = {};
         assertArrayEquals(expected1, answer1);
-        int[] answer2 = Lesson2b.decreasingArray(6);
+        int[] answer2 = Lesson2b.yl3(6);
         int[] expected2 = {3, 3, 3, 3, 3, 3};
         assertArrayEquals(expected2, answer2);
     }
