@@ -3,14 +3,7 @@ package ee.bcs.valiit.solution;
 public class Lesson2Solution {
 
     public static void main(String[] args) {
-        // TODO siia saab kirjutada koodi testimiseks
-        int[] array = new int[5];
-        array[0] = 4;
-        array[1] = 2;
-        array[2] = 6;
-        array[3] = 1;
-        array[4] = 9;
-        System.out.println(min(array));
+        multiplyTable(5, 5);
     }
 
     // TODO loe funktsiooni sisendiks on täisarvude massiiv
@@ -90,7 +83,12 @@ public class Lesson2Solution {
     // TODO 5 võrdle ridu. Kas on mingi seaduspärasus ridade vahel,
     // mis on ja mis võiks olla. Äkki tuleb mõni idee
     public static void multiplyTable(int x, int y) {
-
+        for(int i = 1; i <= y; i++){
+            for(int j = 1; j <= x; j++){
+                System.out.print(i*j + " ");
+            }
+            System.out.println();
+        }
     }
 
     // TODO
