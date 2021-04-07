@@ -1,4 +1,4 @@
-package ee.bcs.java.demo.tasks.lesson1;
+package ee.bcs.valiit.tasks;
 
 import ee.bcs.valiit.tasks.Lesson2;
 import org.junit.jupiter.api.Assertions;
