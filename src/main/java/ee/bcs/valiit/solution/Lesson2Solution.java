@@ -91,13 +91,32 @@ public class Lesson2Solution {
         }
     }
 
+    public static int fibonacci(int n) {
+        if(n == 0){
+            return 0;
+        }
+        int yleEelmne = 0; // n = 0
+        int eelmine = 1; // n = 1
+        for(int i = 2; i <= n; i++){
+            int sum = yleEelmne + eelmine;
+            yleEelmne = eelmine;
+            eelmine = sum;
+        }
+        return eelmine;
+    }
+
     // TODO
     // Fibonacci jada on fib(n) = fib(n-1) + fib(n-2);
     // 0, 1, 1, 2, 3, 5, 8, 13, 21
     // Tagasta fibonacci jada n element. Võid eeldada, et n >= 0
-    public static int fibonacci(int n) {
-
-        return 0;
+    public static int fibonacci2(int n) {
+        if(n == 0){
+            return 0;
+        } else if(n == 1){
+            return 1;
+        } else {
+            return fibonacci2(n-1) + fibonacci2(n-2);
+        }
     }
     // 0 1 | 0 + 1 = 1
     // 1 1 | 1 + 1 = 2
@@ -125,7 +144,23 @@ public class Lesson2Solution {
     // Näiteks sisendi 10 ja 20 puhul on vastus 20
 
     public static int sequence3n(int x, int y) {
-        return 0;
+        int max = 0;
+        for(int i = x; i<=y; i++){
+            int count = 1;
+            int value = i;
+            while(value > 1){
+                if(value % 2 == 0){
+                    value = value / 2;
+                } else {
+                    value = value * 3 +1;
+                }
+                count++;
+            }
+            if(count > max){
+                max = count;
+            }
+        }
+        return max;
     }
 
 
