@@ -20,7 +20,6 @@ class Lesson2cTest {
         Assertions.assertEquals(1, Lesson2c.nextElement(2));
         Assertions.assertEquals(10, Lesson2c.nextElement(3));
         Assertions.assertEquals(5, Lesson2c.nextElement(10));
-        Assertions.assertEquals(16, Lesson2c.nextElement(15));
     }
 
     @Test
