@@ -31,15 +31,6 @@ public class Lesson2c {
     }
 
     // TODO 2
-    // x = 1 -> 4
-    // x = 2 -> 1
-    // x = 3 -> 10
-    public static int nextElement(int x){
-        // TODO tagasta sequence järgmine element
-        return 0;
-    }
-
-    // TODO 1
     // x = 1 ->1
     // x = 2 -> 2
     // kutsuge välja meetodit nextElement nii kaua kuni vastus tuleb 1
@@ -48,5 +39,13 @@ public class Lesson2c {
         return 0;
     }
 
+    // TODO 1
+    // x = 1 -> 4
+    // x = 2 -> 1
+    // x = 3 -> 10
+    public static int nextElement(int x){
+        // TODO tagasta sequence järgmine element
+        return 0;
+    }
 
 }
