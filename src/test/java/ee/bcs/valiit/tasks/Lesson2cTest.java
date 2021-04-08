@@ -11,7 +11,7 @@ class Lesson2cTest {
     void getSeqLength() {
         Assertions.assertEquals(1, Lesson2c.getSeqLength(1));
         Assertions.assertEquals(6, Lesson2c.getSeqLength(5));
-        Assertions.assertEquals(3, Lesson2c.getSeqLength(8));
+        Assertions.assertEquals(4, Lesson2c.getSeqLength(8));
     }
 
     @Test
