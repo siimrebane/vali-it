@@ -51,11 +51,13 @@ https://www.codewars.com/kata/5a24a35a837545ab04001614
 https://www.codewars.com/kata/5819f1c3c6ab1b2b28000624  
 https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1  
 
-## Testid (vanad)
-**Test 1**:   
-**Test 2**: https://drive.google.com/file/d/1BQoDmQYq2fTDqV4eHAbFbVBk9C-bWg9a/view?usp=sharing  
-**Test 3**: https://drive.google.com/file/d/1SjuCmoci_Zugl2qPl9QCFV79qYMsD3F2/view?usp=sharing  
+## Testid
+**Test 1**: https://drive.google.com/file/d/1oVf3MskATAdch_9vyWqlxJfZZVsxG4dr/view?usp=sharing  
+**Test 2**:  
+**Test 3**:  
 **Test 4**:  
+
+## 
 
 ## Kodune lugemine
 * https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html  
