@@ -57,7 +57,8 @@ https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 **Test 3**:  
 **Test 4**:  
 
-## 
+##  Viited
+**Intellije reference card**: https://drive.google.com/file/d/1xnH8zF8RPo8HIUcs7LgSnIupdwLaLZbn/view?usp=sharing  
 
 ## Kodune lugemine
 * https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html  
