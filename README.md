@@ -8,6 +8,7 @@
 **Muutujad, tingimuslaused**: https://drive.google.com/file/d/1QYviLJg4qlorC7vzV4zzgkh85JPvOUDg/view?usp=sharing  
 **Stringid, funktsioonid**: https://drive.google.com/file/d/1H5xJU3WDae4fnjlfwnF-Un5IVlccJRGz/view?usp=sharing  
 **Konsool, massiivid, tsüklid**:  https://drive.google.com/file/d/1-l1ZilB4tj-9_bO2cpxbuRkxYk38hQEF/view?usp=sharing  
+**Objektid**: https://drive.google.com/file/d/1oaEbMpp-qkast8t8e4OUrVRTCzANc_8M/view?usp=sharing  
 **GIT**:  
 **Json, REST, Web**:  
 **Request Body, DTO**:  
@@ -34,7 +35,7 @@
 ### Raskus 8
 https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1  
 https://www.codewars.com/kata/57d814e4950d8489720008db  
-https://www.codewars.com/kata/59fca81a5712f9fa4700159a  
+https://www.codewars.com/kata/59fca81a5712f9fa4700159a  (raske, vajab 2nd süsteemist arusaamist)
 https://www.codewars.com/kata/5b73fe9fb3d9776fbf00009e  
 ### Raskus 7
 https://www.codewars.com/kata/5390bac347d09b7da40006f6  
