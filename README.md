@@ -9,7 +9,7 @@
 **Stringid, funktsioonid**: https://drive.google.com/file/d/1H5xJU3WDae4fnjlfwnF-Un5IVlccJRGz/view?usp=sharing  
 **Konsool, massiivid, tsüklid**:  https://drive.google.com/file/d/1-l1ZilB4tj-9_bO2cpxbuRkxYk38hQEF/view?usp=sharing  
 **Objektid**: https://drive.google.com/file/d/1oaEbMpp-qkast8t8e4OUrVRTCzANc_8M/view?usp=sharing  
-**GIT**:  
+**GIT**: https://drive.google.com/file/d/1zOdxrJ2-oZfzfcaYi1Zg384GVY5gtN9V/view?usp=sharing  
 **Json, REST, Web**:  
 **Request Body, DTO**:  
 **SQL**:  
