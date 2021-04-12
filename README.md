@@ -32,7 +32,7 @@
 **Vue JS**:  
 
 ## Kodune lugemine ##
-Git: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow 
+**Git**: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow 
 
 ## Lisaülesanded (väiksem number = raskem ülesanne)
 ### Raskus 8
@@ -62,6 +62,3 @@ https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 
 ##  Viited
 **Intellije reference card**: https://drive.google.com/file/d/1xnH8zF8RPo8HIUcs7LgSnIupdwLaLZbn/view?usp=sharing  
-
-## Kodune lugemine
-* https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html  
