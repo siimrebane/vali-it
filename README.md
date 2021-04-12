@@ -31,6 +31,9 @@
 **Fetch and promise**:  
 **Vue JS**:  
 
+## Kodune lugemine ##
+Git: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow 
+
 ## Lisaülesanded (väiksem number = raskem ülesanne)
 ### Raskus 8
 https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1  
