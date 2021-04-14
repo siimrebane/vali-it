@@ -1,13 +1,14 @@
 package ee.bcs.valiit.solution;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Lesson3Solution {
 
     public static void main(String[] args) {
         int[] a = new int[]{1, 2, 3, 4};
-        System.out.println(Arrays.toString(a));
-        System.out.println(reverseString("Hello World"));
+        System.out.println(evenFibonacci(10));
     }
 
     // TODO tagasta x faktoriaal.
@@ -77,12 +78,40 @@ public class Lesson3Solution {
         // TODO liida kokku kõik paaris fibonacci arvud kuni numbrini x
         // 21
         // 0 1 1 2 3 5 8 13 21
-        return 0;
+        int a = 0;
+        int b = 1;
+        int sum = 0;
+        while(b <= x){
+            int c = a;
+            a = b;
+            b = c + b;
+            if(a % 2==0){
+                sum += a;
+            }
+        }
+        return sum;
     }
 
     public static String morseCode(String text) {
+        Map<Character, String> morseMap = new HashMap<>();
+        morseMap.put('h', "....");
+        morseMap.put('e', ".");
+        morseMap.put('l', ".-..");
+        morseMap.put('o', "---");
+        morseMap.put('s', "...");
+        //for(int i = 0; i < text.length(); i++){
+        //    char c = text.charAt(i);
+        //}
+        String resultString = "";
+
+        for (char c : text.toCharArray()) {
+            if (!resultString.isEmpty()) {
+                resultString += " ";
+            }
+            resultString += morseMap.get(c);
+        }
         // TODO kirjuta programm, mis tagastab sisestatud teksti morse koodis (https://en.wikipedia.org/wiki/Morse_code)
         // Kasuta sümboleid . ja - ning eralda kõik tähed tühikuga
-        return "";
+        return resultString;
     }
 }

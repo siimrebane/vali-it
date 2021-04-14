@@ -41,7 +41,7 @@ public class Lesson2Solution {
     // TODO, leia massiivi kõige väiksem element
     public static int min(int[] array) { // 4 2 6 1 9
         int minElement = array[0]; // minElement = 4
-        for(int i = 1; i < array.length; i++){
+        for (int i = 1; i < array.length; i++) {
             if (array[i] < minElement) {
                 minElement = array[i];
             }
@@ -52,7 +52,7 @@ public class Lesson2Solution {
     // TODO, leia massiivi kõige suurem element
     public static int max(int[] x) {
         int maxElement = x[0]; // minElement = 4
-        for(int i = 1; i < x.length; i++){
+        for (int i = 1; i < x.length; i++) {
             if (x[i] > maxElement) {
                 maxElement = x[i];
             }
@@ -83,21 +83,21 @@ public class Lesson2Solution {
     // TODO 5 võrdle ridu. Kas on mingi seaduspärasus ridade vahel,
     // mis on ja mis võiks olla. Äkki tuleb mõni idee
     public static void multiplyTable(int x, int y) {
-        for(int i = 1; i <= y; i++){
-            for(int j = 1; j <= x; j++){
-                System.out.print(i*j + " ");
+        for (int i = 1; i <= y; i++) {
+            for (int j = 1; j <= x; j++) {
+                System.out.print(i * j + " ");
             }
             System.out.println();
         }
     }
 
     public static int fibonacci(int n) {
-        if(n == 0){
+        if (n == 0) {
             return 0;
         }
         int yleEelmne = 0; // n = 0
         int eelmine = 1; // n = 1
-        for(int i = 2; i <= n; i++){
+        for (int i = 2; i <= n; i++) {
             int sum = yleEelmne + eelmine;
             yleEelmne = eelmine;
             eelmine = sum;
@@ -110,12 +110,12 @@ public class Lesson2Solution {
     // 0, 1, 1, 2, 3, 5, 8, 13, 21
     // Tagasta fibonacci jada n element. Võid eeldada, et n >= 0
     public static int fibonacci2(int n) {
-        if(n == 0){
+        if (n == 0) {
             return 0;
-        } else if(n == 1){
+        } else if (n == 1) {
             return 1;
         } else {
-            return fibonacci2(n-1) + fibonacci2(n-2);
+            return fibonacci2(n - 1) + fibonacci2(n - 2);
         }
     }
     // 0 1 | 0 + 1 = 1
@@ -145,18 +145,18 @@ public class Lesson2Solution {
 
     public static int sequence3n(int x, int y) {
         int max = 0;
-        for(int i = x; i<=y; i++){
+        for (int i = x; i <= y; i++) {
             int count = 1;
             int value = i;
-            while(value > 1){
-                if(value % 2 == 0){
+            while (value > 1) {
+                if (value % 2 == 0) {
                     value = value / 2;
                 } else {
-                    value = value * 3 +1;
+                    value = value * 3 + 1;
                 }
                 count++;
             }
-            if(count > max){
+            if (count > max) {
                 max = count;
             }
         }
