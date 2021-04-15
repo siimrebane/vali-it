@@ -8,7 +8,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 @RestController
-public class RandomGameController {
+public class SampleRandomGameController {
     int count = 0;
     Random random = new Random();
     int randomNumber = random.nextInt(100);

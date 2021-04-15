@@ -73,7 +73,7 @@ public class SampleBankController {
 
     // http://localhost:8080/sample/bank/account
     @PostMapping("sample/bank/account")
-    public void createAccount2(@RequestBody CreateAccountRequest request) {
+    public void createAccount2(@RequestBody SampleCreateAccountRequest request) {
         accountBalanceMap.put(request.getAccountNumber(), request.getAmount());
     }
 

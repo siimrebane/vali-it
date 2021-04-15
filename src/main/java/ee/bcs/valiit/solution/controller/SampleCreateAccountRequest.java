@@ -1,6 +1,6 @@
 package ee.bcs.valiit.solution.controller;
 
-public class CreateAccountRequest {
+public class SampleCreateAccountRequest {
     private String accountNumber;
     private Double amount;
 
