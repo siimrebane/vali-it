@@ -63,3 +63,6 @@ https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 
 ##  Viited
 **Intellije reference card**: https://drive.google.com/file/d/1xnH8zF8RPo8HIUcs7LgSnIupdwLaLZbn/view?usp=sharing  
+
+## Tunnikontroll
+15.04.2021: https://docs.google.com/document/d/1sSiRbosieeeawgQlttXFXyVEM01X6QWObTSPG99ASoQ/edit?usp=sharing  
