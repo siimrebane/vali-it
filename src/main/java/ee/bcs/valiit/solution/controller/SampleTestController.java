@@ -1,6 +1,7 @@
-package ee.bcs.valiit.solution;
+package ee.bcs.valiit.solution.controller;
 
 import ee.bcs.valiit.sample.Book;
+import ee.bcs.valiit.solution.SolutionLesson1;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
