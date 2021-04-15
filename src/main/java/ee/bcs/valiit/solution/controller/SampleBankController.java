@@ -7,7 +7,7 @@ import java.util.Map;
 
 @RestController
 public class SampleBankController {
-    private static Map<String, Double> accountBalanceMap = new HashMap<>();
+    private static Map<String, SampleAccount> accountBalanceMap = new HashMap<>();
 
     public static void main(String[] args) {
 /*
@@ -67,19 +67,36 @@ public class SampleBankController {
 
     // http://localhost:8080/sample/bank/createAccount?accountNr=EE123&balance=1245
     @GetMapping("sample/bank/createAccount")
-    public void createAccount(@RequestParam("accountNr") String accountNr, @RequestParam("balance") Double balance) {
-        accountBalanceMap.put(accountNr, balance);
+    public void createAccount(@RequestParam("accountNr") String accountNr,
+                              @RequestParam("balance") Double balance,
+                              @RequestParam("name") String ownerName) {
+        SampleAccount account = new SampleAccount();
+        account.setAccountNumber(accountNr);
+        account.setBalance(balance);
+        account.setOwnerName(ownerName);
+        account.setLocked(false);
+        accountBalanceMap.put(accountNr, account);
     }
 
     // http://localhost:8080/sample/bank/account
     @PostMapping("sample/bank/account")
-    public void createAccount2(@RequestBody SampleCreateAccountRequest request) {
-        accountBalanceMap.put(request.getAccountNumber(), request.getAmount());
+    public void createAccount2(@RequestBody SampleAccount request) {
+        accountBalanceMap.put(request.getAccountNumber(), request);
     }
 
     // http://localhost:8080/sample/bank/account/EE123
     @GetMapping("sample/bank/account/{accountNumber}")
     public String getBalance(@PathVariable("accountNumber") String accountNr){
-        return "Konto balanss on: " + accountBalanceMap.get(accountNr);
+        return "Konto balanss on: " + accountBalanceMap.get(accountNr).getBalance();
+    }
+
+    @PutMapping("sample/bank/account/{accountNumber}/lock")
+    public String lock(@PathVariable("accountNumber") String accountNr){
+        return null;
+    }
+
+    @PutMapping("sample/bank/account/{accountNumber}/unlock")
+    public String unlock(@PathVariable("accountNumber") String accountNr){
+        return null;
     }
 }

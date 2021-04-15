@@ -1,4 +1,4 @@
-package ee.bcs.valiit;
+package ee.bcs.valiit.sample.oop;
 
 public class Circle extends Shape {
     int radius;
