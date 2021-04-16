@@ -41,4 +41,16 @@ public class SampleTestController {
     public void addBook(@RequestBody Book book){
         bookList.add(book);
     }
+
+    // 1 = http://localhost:8080/
+    // 2 = teks mis on getMappingu sees
+    // 3 = ?
+    // 4 = requestParamid kujul a=1&b=2&c=3
+    // http://localhost:8080/sample/ex1/2/4?a=1
+    @GetMapping("sample/ex1/{a}/{b}")
+    public String test(@PathVariable("b") int z, @RequestParam("a") Integer a, @PathVariable("a") int y){
+        return "Request param: " + a +
+                "\nPath variable1: " + y +
+                "\nPath variable1: " + z;
+    }
 }
