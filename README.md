@@ -13,7 +13,7 @@
 **Json, REST, Web**: https://drive.google.com/file/d/104cKKJn1jadK91TJJYN4BKAHh98zR0qJ/view?usp=sharing  
 **Request Body, DTO**: https://drive.google.com/file/d/1wqpUF4an_neP1ZYiqZDvhMtdLhGg9p4G/view?usp=sharing  
 **OOP, Exceptionid**: https://drive.google.com/file/d/1ApXt7__dEhLk7ae-qWLF95D7QV528BZK/view?usp=sharing  
-**SQL**:  
+**SQL**: https://drive.google.com/file/d/1elnwpfZwM2WLOGLWFXrIFSXoiwvcW1lp/view?usp=sharing  
 **Architecture**:  
 **Liquibase**:  
 **SQL 2**:  
