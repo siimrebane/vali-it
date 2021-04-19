@@ -32,21 +32,66 @@ public class Lesson4Solution {
                 System.out.println("Please enter account nr");
                 String accountNr = scanner.nextLine();
                 System.out.println("Konto balanss on: " + accountBalanceMap.get(accountNr));
+            }  else if(line.equalsIgnoreCase("depositMoney")) {
+                // TODO 3
+                // Add command: "depositMoney ${accountNr} ${amount}
+                // this has to add specified amount of money to account
+                // You have to check that amount is positive number
+                System.out.println("Please enter account nr");
+                String accountNr = scanner.nextLine();
+                System.out.println("Please enter amount");
+                Double amount = scanner.nextDouble();
+                scanner.nextLine();
+                if(amount > 0){
+                    Double currentBalance = accountBalanceMap.get(accountNr);
+                    Double newBalance = currentBalance + amount;
+                    accountBalanceMap.put(accountNr, newBalance);
+                } else {
+                    System.out.println("Sisestatud summa peab olema positiivne number");
+                }
+            } else if(line.equalsIgnoreCase("withdrawMoney")) {
+                // TODO 4
+                // Add command: "withdrawMoney ${accountNr} ${amount}
+                // This has to remove specified amount of money from account
+                // You have to check that amount is positive number
+                // You may not allow this transaction if account balance would become negative
+                System.out.println("Please enter account nr");
+                String accountNr = scanner.nextLine();
+                System.out.println("Please enter amount");
+                Double amount = scanner.nextDouble();
+                scanner.nextLine();
+                if(amount > 0){
+                    Double currentBalance = accountBalanceMap.get(accountNr);
+                    Double newBalance = currentBalance - amount;
+                    if(newBalance >= 0){
+                        accountBalanceMap.put(accountNr, newBalance);
+                    } else {
+                        System.out.println("Kontol pole piisavalt raha");
+                    }
+                } else {
+                    System.out.println("Sisestatud summa peab olema positiivne number");
+                }
+            } else if(line.equalsIgnoreCase("transferMoney")) {
+                System.out.println("Please enter from account nr");
+                String fromAccountNr = scanner.nextLine();
+                System.out.println("Please enter to account nr");
+                String toAccountNr = scanner.nextLine();
+                System.out.println("Please enter amount");
+                Double amount = scanner.nextDouble();
+                scanner.nextLine();
+                if(amount > 0){
+                    double fromAccountBalance = accountBalanceMap.get(fromAccountNr);
+                    if (fromAccountBalance < amount) {
+                        System.out.println("Kontol pole piisavalt raha");
+                    } else {
+                        double toAccountBalance = accountBalanceMap.get(toAccountNr);
+                        accountBalanceMap.put(fromAccountNr, fromAccountBalance - amount);
+                        accountBalanceMap.put(toAccountNr, toAccountBalance + amount);
+                    }
+                } else {
+                    System.out.println("Summa peab olema positiivne number");
+                }
             }
-            // TODO 3
-            // Add command: "depositMoney ${accountNr} ${amount}
-            // this has to add specified amount of money to account
-            // You have to check that amount is positive number
-            // TODO 4
-            // Add command: "withdrawMoney ${accountNr} ${amount}
-            // This has to remove specified amount of money from account
-            // You have to check that amount is positive number
-            // You may not allow this transaction if account balance would become negative
-            // TODO 5
-            // Add command: "transfer ${fromAccount} ${toAccount} ${amount}
-            // This has to remove specified amount from fromAccount and add it to toAccount
-            // Your application needs to check that toAccount is positive
-            // And from account has enough money to do that transaction
             else {
                 System.out.println("Unknown command");
             }
