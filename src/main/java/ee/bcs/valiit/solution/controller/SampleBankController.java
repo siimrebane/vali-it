@@ -5,6 +5,7 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -109,5 +110,11 @@ public class SampleBankController {
     @PutMapping("sample/bank/account/{accountNumber}/unlock")
     public String unlock(@PathVariable("accountNumber") String accountNr){
         return null;
+    }
+
+    @GetMapping("sample/bank/account")
+    public List<SampleAccount2> getAllAccounts(){
+        String sql = "SELECT * FROM account";
+        return jdbcTemplate.query(sql, new HashMap(), new SampleAccount2RowMapper());
     }
 }
