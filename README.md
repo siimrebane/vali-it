@@ -14,7 +14,7 @@
 **Request Body, DTO**: https://drive.google.com/file/d/1wqpUF4an_neP1ZYiqZDvhMtdLhGg9p4G/view?usp=sharing  
 **OOP, Exceptionid**: https://drive.google.com/file/d/1ApXt7__dEhLk7ae-qWLF95D7QV528BZK/view?usp=sharing  
 **SQL**: https://drive.google.com/file/d/1elnwpfZwM2WLOGLWFXrIFSXoiwvcW1lp/view?usp=sharing  
-**Architecture**:  
+**Architecture**: https://drive.google.com/file/d/1uPMBm8CB-rUcStramd0Czz0QWKHDhkEO/view?usp=sharing  
 **Liquibase**:  
 **SQL 2**:  
 **Hibernate, Spring Data**:  
@@ -66,3 +66,4 @@ https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 
 ## Tunnikontroll
 15.04.2021: https://docs.google.com/document/d/1sSiRbosieeeawgQlttXFXyVEM01X6QWObTSPG99ASoQ/edit?usp=sharing  
+19.04.2021: https://docs.google.com/document/d/1-Ih82VNJAcCKbFJcGiB29PSAV7DASST1y0vTCX6Aer4/edit?usp=sharing  
