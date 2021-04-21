@@ -20,4 +20,11 @@ public class SampleAccountRepository {
         paramMap.put("dbAmount", balance);
         jdbcTemplate.update(sql, paramMap);
     }
+
+    public Double getBalance(String accountNr){
+        String sql = "SELECT balance FROM account WHERE account_number = :dbAccNo";
+        Map<String, Object> paramMap = new HashMap<>();
+        paramMap.put("dbAccNo", accountNr);
+        return jdbcTemplate.queryForObject(sql, paramMap, Double.class);
+    }
 }
