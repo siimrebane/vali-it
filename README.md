@@ -16,7 +16,7 @@
 **SQL**: https://drive.google.com/file/d/1elnwpfZwM2WLOGLWFXrIFSXoiwvcW1lp/view?usp=sharing  
 **Architecture**: https://drive.google.com/file/d/1uPMBm8CB-rUcStramd0Czz0QWKHDhkEO/view?usp=sharing  
 **Liquibase**: https://drive.google.com/file/d/1NCgQCfaVX4PRSqk5oVYPD4xhkJhJsewc/view?usp=sharing  
-**SQL 2**:  
+**HTML, CSS**: https://drive.google.com/file/d/1iSoZQu-qyF94MYtQVu1i10pYyM1-k664/view?usp=sharing  
 **Hibernate, Spring Data**:  
 **Exceptions**:  
 **Scheduled Tasks**:  
@@ -39,7 +39,7 @@
 ### Raskus 8
 https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1  
 https://www.codewars.com/kata/57d814e4950d8489720008db  
-https://www.codewars.com/kata/59fca81a5712f9fa4700159a  (raske, vajab 2nd süsteemist arusaamist)
+https://www.codewars.om/kata/59fca81a5712f9fa4700159a  (raske, vajab 2nd süsteemist arusaamist)
 https://www.codewars.com/kata/5b73fe9fb3d9776fbf00009e  
 ### Raskus 7
 https://www.codewars.com/kata/5390bac347d09b7da40006f6  
