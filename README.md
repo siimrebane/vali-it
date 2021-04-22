@@ -67,3 +67,6 @@ https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 ## Tunnikontroll
 15.04.2021: https://docs.google.com/document/d/1sSiRbosieeeawgQlttXFXyVEM01X6QWObTSPG99ASoQ/edit?usp=sharing  
 19.04.2021: https://docs.google.com/document/d/1-Ih82VNJAcCKbFJcGiB29PSAV7DASST1y0vTCX6Aer4/edit?usp=sharing  
+
+## Vanad versioonid
+https://www.jetbrains.com/idea/download/other.html
