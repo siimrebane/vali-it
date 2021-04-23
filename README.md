@@ -16,19 +16,16 @@
 **SQL**: https://drive.google.com/file/d/1elnwpfZwM2WLOGLWFXrIFSXoiwvcW1lp/view?usp=sharing  
 **Architecture**: https://drive.google.com/file/d/1uPMBm8CB-rUcStramd0Czz0QWKHDhkEO/view?usp=sharing  
 **Liquibase**: https://drive.google.com/file/d/1NCgQCfaVX4PRSqk5oVYPD4xhkJhJsewc/view?usp=sharing  
-**Hibernate, Spring Data**: https://drive.google.com/file/d/1eWV24l4MApKUK8S3d9s9NciMpFaTYjdT/view?usp=sharing    
-**HTML, CSS**: https://drive.google.com/file/d/1iSoZQu-qyF94MYtQVu1i10pYyM1-k664/view?usp=sharing  
 **Exceptions**:  
+**Hibernate, Spring Data**: https://drive.google.com/file/d/1eWV24l4MApKUK8S3d9s9NciMpFaTYjdT/view?usp=sharing    
 **Scheduled Tasks**:  
 **Testing**:  
 **Security**:  
 **JWT/Security**:  
 **Transactions**:  
 ### HTML / CSS
-**HTML**:  
-**CSS**:  
-**Input elements**:  
-**Javascript**:  
+**HTML, CSS**: https://drive.google.com/file/d/1iSoZQu-qyF94MYtQVu1i10pYyM1-k664/view?usp=sharing  
+**Javascript**: https://drive.google.com/file/d/1_SoHx2hc8fYapcM9tgcA-K7-uSc4qslp/view?usp=sharing  
 **Fetch and promise**:  
 **Vue JS**:  
 
