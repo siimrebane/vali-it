@@ -1,14 +1,19 @@
 package ee.bcs.valiit.solution.hibernate;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Table(name="account")
 @Entity
 public class SampleAccount {
+    // Juhul kui on auto increment id tulp
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    private Integer id;
+
+    // andmebaasis peab olema tulba nimi: account_number
     @Id
     private String accountNumber;
+
     private Double balance;
 
     public String getAccountNumber() {
