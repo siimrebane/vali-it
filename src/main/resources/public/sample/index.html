@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Min</h1>
+    a: <input id="minA"> b: <input id="minB"> <button id="minButton">Min</button>
+    <p>
+        Vastus on: <span id="minAnswer"></span>
+    </p>
+    <script>
+        let minA = document.getElementById("minA");
+        let minB = document.getElementById("minB");
+        let minButton = document.getElementById("minButton");
+        minButton.onclick = function() {
+            let minAnswer = document.getElementById("minAnswer");
+            let a = minA.value;
+            let b = minB.value;
+            if(Number(a) < Number(b)){
+                minAnswer.innerText = a;
+            } else {
+                minAnswer.innerText = b;
+            }
+        }
+    </script>
+</body>
+</html>
