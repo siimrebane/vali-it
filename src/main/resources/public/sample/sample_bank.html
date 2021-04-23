@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<h2> Loo konto</h2>
+<input id="accountNumber">
+<button id="createAccountButton">Loo konto</button>
+<button id="getBalanceButton">Küsi balanss</button>
+
+<script>
+    let accountNumber = document.getElementById("accountNumber");
+    let createButton = document.getElementById("createAccountButton");
+    let getBalanceButton = document.getElementById("getBalanceButton");
+    createButton.onclick = function () {
+        let requestObject = {
+            'accountNumber': accountNumber.value,
+            'balance': 0
+        }
+        let url = "http://localhost:8080/sample/bank/account";
+        let configuration = {
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(requestObject)
+        }
+        fetch(url, configuration);
+    }
+    getBalanceButton.onclick = function () {
+        let requestObject = {
+            'accountNumber': accountNumber.value,
+            'balance': 0
+        }
+        fetch("http://localhost:8080/sample/bank/account/" + accountNumber.value)
+            .then(response => response.text())
+            .then(function(response){ // selle asemel ma võiksin kirjutada response => alert(response)
+                alert(response)
+            })
+    }
+</script>
+</body>
+</html>
