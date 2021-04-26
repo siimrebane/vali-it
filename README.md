@@ -27,7 +27,7 @@
 **HTML, CSS**: https://drive.google.com/file/d/1iSoZQu-qyF94MYtQVu1i10pYyM1-k664/view?usp=sharing  
 **Javascript**: https://drive.google.com/file/d/1_SoHx2hc8fYapcM9tgcA-K7-uSc4qslp/view?usp=sharing  
 **Fetch and promise**: https://drive.google.com/file/d/1H7tIhHUMqy2fVmPcCY8oOiTn3KTm_qol/view?usp=sharing  
-**Vue JS**:  
+**Vue JS**: https://drive.google.com/file/d/1yurYyrEP6VOE9YAgRrDmdl8lSvPmCR-f/view?usp=sharing  
 
 ## Kodune lugemine ##
 **Git**: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow 
