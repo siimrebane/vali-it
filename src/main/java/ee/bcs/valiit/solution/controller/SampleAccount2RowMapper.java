@@ -13,8 +13,6 @@ public class SampleAccount2RowMapper implements RowMapper<SampleAccount2> {
         SampleAccount2 response = new SampleAccount2();
         response.setAccountNumber(resultSet.getString("account_number"));
         response.setBalance(resultSet.getDouble("balance"));
-        response.setId(resultSet.getInt("id"));
-        response.setBlocked(resultSet.getBoolean("block"));
         return response;
     }
 }
