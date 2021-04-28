@@ -9,12 +9,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@RequestMapping("api")
 @RestController
 public class SampleBankController {
     private static Map<String, SampleAccount> accountBalanceMap = new HashMap<>();
-
-    @Autowired
-    private NamedParameterJdbcTemplate jdbcTemplate;
 
     @Autowired
     private SampleBankService sampleBankService;
@@ -29,21 +27,13 @@ public class SampleBankController {
     // http://localhost:8080/sample/bank/account
     @PostMapping("sample/bank/account")
     public void createAccount2(@RequestBody SampleAccount request) {
-        String sql = "INSERT INTO account(account_number, balance) VALUES(:dbAccNo, :dbAmount)";
-        Map<String, Object> paramMap = new HashMap<>();
-        paramMap.put("dbAccNo", request.getAccountNumber());
-        paramMap.put("dbAmount", request.getBalance());
-        jdbcTemplate.update(sql, paramMap);
+        sampleBankService.createAccount(request.getAccountNumber(), request.getBalance());
     }
 
     // http://localhost:8080/sample/bank/account/EE123
     @GetMapping("sample/bank/account/{accountNumber}")
     public String getBalance(@PathVariable("accountNumber") String accountNr){
-        String sql = "SELECT balance FROM account WHERE account_number = :dbAccNo";
-        Map<String, Object> paramMap = new HashMap<>();
-        paramMap.put("dbAccNo", accountNr);
-        Double balance = jdbcTemplate.queryForObject(sql, paramMap, Double.class);
-        return "Konto balanss on: " + balance;
+        return sampleBankService.getBalance(accountNr);
     }
 
     @PutMapping("sample/bank/account/{accountNumber}/lock")
@@ -58,7 +48,7 @@ public class SampleBankController {
 
     @GetMapping("sample/bank/account")
     public List<SampleAccount2> getAllAccounts(){
-        String sql = "SELECT * FROM account";
-        return jdbcTemplate.query(sql, new HashMap(), new SampleAccount2RowMapper());
+        return sampleBankService.getAllAccounts();
     }
+
 }
