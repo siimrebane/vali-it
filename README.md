@@ -21,7 +21,7 @@
 **Security**: https://drive.google.com/file/d/105CpgMW1lrLfVDRvNootiNYGuRcaN8iR/view?usp=sharing  
 **SQL 2**: https://drive.google.com/file/d/1zruh1n6XKl96AxLAEODKHAzcgbvdRZLe/view?usp=sharing  
 **Scheduled Tasks**: https://drive.google.com/file/d/1CON_T2_pTCzNfGu1p1ln8NtxMnP7mSI0/view?usp=sharing  
-**Email**: 
+**Email**: https://drive.google.com/file/d/1sInjMF7oZWqGzYkHI9q59W1mCv1ixUcl/view?usp=sharing  
 **Testing**:   
 **Transactions**:  
 ### HTML / CSS
