@@ -23,7 +23,8 @@
 **Scheduled Tasks**: https://drive.google.com/file/d/1CON_T2_pTCzNfGu1p1ln8NtxMnP7mSI0/view?usp=sharing  
 **Email**: https://drive.google.com/file/d/1sInjMF7oZWqGzYkHI9q59W1mCv1ixUcl/view?usp=sharing  
 **Testing**: https://drive.google.com/file/d/1CFY-lk34AV7xU0Ccv6vzu_p6wXkSZ1nV/view?usp=sharing  
-**Transactions**: https://drive.google.com/file/d/1x1ESHw2XI9DdnDFQ50f3rfhzNoYErare/view?usp=sharing   
+**Transactions**: https://drive.google.com/file/d/1x1ESHw2XI9DdnDFQ50f3rfhzNoYErare/view?usp=sharing  
+**Deploy**: https://drive.google.com/file/d/1v2AB0ZsRuQ3kAnIJGPozwP_m6N5xMaYm/view?usp=sharing  
 ### HTML / CSS
 **HTML, CSS**: https://drive.google.com/file/d/1iSoZQu-qyF94MYtQVu1i10pYyM1-k664/view?usp=sharing  
 **Javascript**: https://drive.google.com/file/d/1_SoHx2hc8fYapcM9tgcA-K7-uSc4qslp/view?usp=sharing  
