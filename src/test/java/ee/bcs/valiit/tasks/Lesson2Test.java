@@ -1,69 +1,58 @@
 package ee.bcs.valiit.tasks;
 
-import ee.bcs.valiit.tasks.Lesson2;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class Lesson2Test {
 
     @Test
-    void reverseArray_standard() {
-        int[] input = {1, 2, 3, 4};
-        int[] expectedOutput = {4, 3, 2, 1};
-        int[] output = Lesson2.reverseArray(input);
-        Assertions.assertArrayEquals(expectedOutput, output);
-    }
-    @Test
-    void reverseArray_empty() {
-        int[] input = new int[0];
-        int[] output = Lesson2.reverseArray(input);
-        Assertions.assertArrayEquals(new int[0], output);
+    void sampleArray() {
+        Lesson2 lesson2 = new Lesson2();
+        int[] answer = lesson2.sampleArray();
+        int[] expected = {1, 2, 3, 4, 5};
+        assertArrayEquals(expected, answer);
     }
 
     @Test
-    void evenNumbers() {
-        int[] expectedOutput = {2,4,6};
-        Assertions.assertArrayEquals(expectedOutput, Lesson2.evenNumbers(3));
-        int[] expectedOutput2 = {2,4,6,8,10,12};
-        Assertions.assertArrayEquals(expectedOutput2, Lesson2.evenNumbers(6));
+    void firstN() {
+        Lesson2 lesson2 = new Lesson2();
+        int[] answer = lesson2.firstN(5);
+        int[] expected = {1, 2, 3, 4, 5};
+        assertArrayEquals(expected, answer);
     }
 
     @Test
-    void min() {
-        int[] input = {2, 4, 5, -2, -1};
-        Assertions.assertEquals(-2, Lesson2.min(input));
+    void generateArray() {
+        int[] answer1 = Lesson2.generateArray(0);
+        int[] expected1 = {};
+        assertArrayEquals(expected1, answer1);
+        int[] answer2 = Lesson2.generateArray(6);
+        int[] expected2 = {1, 2, 3, 4, 5, 6};
+        assertArrayEquals(expected2, answer2);
     }
 
     @Test
-    void max() {
-        int[] input = {2, 4, 5, -2, -1};
-        Assertions.assertEquals(5, Lesson2.max(input));
+    void decreasingArray() {
+        int[] answer1 = Lesson2.decreasingArray(0);
+        int[] expected1 = {0};
+        assertArrayEquals(expected1, answer1);
+        int[] answer2 = Lesson2.decreasingArray(6);
+        int[] expected2 = {6, 5, 4, 3, 2, 1, 0};
+        assertArrayEquals(expected2, answer2);
+        int[] answer3 = Lesson2.decreasingArray(-4);
+        int[] expected3 = {-4, -3, -2, -1, 0};
+        assertArrayEquals(expected3, answer3);
     }
 
     @Test
-    void sum() {
-        int[] input = {2, 4, 5, -2, -1};
-        Assertions.assertEquals(8, Lesson2.sum(input));
+    void yl3() {
+        int[] answer1 = Lesson2.yl3(0);
+        int[] expected1 = {};
+        assertArrayEquals(expected1, answer1);
+        int[] answer2 = Lesson2.yl3(6);
+        int[] expected2 = {3, 3, 3, 3, 3, 3};
+        assertArrayEquals(expected2, answer2);
     }
 
-    @Test
-    void multiplyTable() {
-        // TODO
-    }
-
-    @Test
-    void fibonacci() {
-        Assertions.assertEquals(0, Lesson2.fibonacci(0));
-        Assertions.assertEquals(1, Lesson2.fibonacci(1));
-        Assertions.assertEquals(1, Lesson2.fibonacci(2));
-        Assertions.assertEquals(610, Lesson2.fibonacci(15));
-    }
-
-    @Test
-    void sequence3n() {
-        Assertions.assertEquals(20, Lesson2.sequence3n(1, 10));
-        Assertions.assertEquals(125, Lesson2.sequence3n(100, 200));
-        Assertions.assertEquals(89, Lesson2.sequence3n(201, 210));
-        Assertions.assertEquals(174, Lesson2.sequence3n(900, 1000));
-    }
 }

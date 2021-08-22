@@ -1,6 +1,5 @@
 package ee.bcs.valiit.tasks;
 
-import ee.bcs.valiit.tasks.Lesson3;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

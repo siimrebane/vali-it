@@ -7,7 +7,6 @@ public class Lesson2c {
     }
 
     // TODO
-    // Täüsem lugemine: https://onlinejudge.org/external/1/100.pdf
     // Kujutame ette numbrite jada, kus juhul kui number on paaris arv siis me jagame selle 2-ga
     // Kui number on paaritu arv siis me korrutame selle 3-ga ja liidame 1. (3n+1)
     // Seda tegevust teeme me niikaua kuni me saame vastuseks 1
@@ -23,28 +22,28 @@ public class Lesson2c {
     // Näiteks sisendi 10 ja 20 puhul on vastus 20
 
     // TODO 3
-    // tehke tsükkel x -> y
-    // kutsuge iga väärtuse korral välja meetodit getSeqLength
-    // salvestage maha kõige suurem ja funktsiooni lõpus tagastage see
+    //  tehke tsükkel x -> y
+    //  kutsuge iga väärtuse korral välja meetodit getSeqLength
+    //  salvestage maha kõige suurem ja funktsiooni lõpus tagastage leitud arv
     public static int sequence3n(int x, int y) {
         return 0;
     }
 
     // TODO 2
-    // x = 1 ->1
-    // x = 2 -> 2
-    // kutsuge välja meetodit nextElement nii kaua kuni vastus tuleb 1
-    // tagastage korduste arv + 1
+    //  kutsuge välja meetodit nextElement nii kaua kuni vastus tuleb 1
+    //  tagastage korduste arv + 1
+    //  x = 1 ->1
+    //  x = 2 -> 2
     public static int getSeqLength(int x){
         return 0;
     }
 
     // TODO 1
-    // x = 1 -> 4
-    // x = 2 -> 1
-    // x = 3 -> 10
+    //  tagasta jada järgmine element
+    //  x = 1 -> 4
+    //  x = 2 -> 1
+    //  x = 3 -> 10
     public static int nextElement(int x){
-        // TODO tagasta sequence järgmine element
         return 0;
     }
 

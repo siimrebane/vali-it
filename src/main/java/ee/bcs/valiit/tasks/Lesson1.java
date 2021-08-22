@@ -1,11 +1,21 @@
 package ee.bcs.valiit.tasks;
 
+import org.jetbrains.annotations.NotNull;
+
 // TODO kasuta if/else. Ära kasuta Math librarit
 public class Lesson1 {
     public static void main(String[] args) {
         // Siia sisse võid sa kirjutada koodi, et testida kas su meetodid töötavad ilusti
         // Katseta IntelliJ shortcuti. Olles intelliJ kirjuta "sout" ja siis vajuta enter
+        someString();
         System.out.println(min(1, 3)); // trükib miinimumi 1 ja 3
+    }
+
+    // TODO
+    //  Tagasta string mille väärtus oleks "\"\\""
+    //  Trüki muutuja sisu välja
+    public static String someString(){
+        return "";
     }
 
     // TODO tagasta a ja b väikseim väärtus
@@ -38,4 +48,5 @@ public class Lesson1 {
     public static int max3(int a, int b, int c) {
         return 0;
     }
+
 }

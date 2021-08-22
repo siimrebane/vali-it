@@ -1,11 +1,24 @@
 package ee.bcs.valiit.tasks;
 
-import ee.bcs.valiit.tasks.Lesson1;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class Lesson1Test {
+
+
+    @Test
+    void someString() {
+        String result = Lesson1.someString();
+        assertEquals(result.length(), 7);
+        assertEquals(result.charAt(0), '"');
+        assertEquals(result.charAt(1), '\\');
+        assertEquals(result.charAt(2), '"');
+        assertEquals(result.charAt(3), '\\');
+        assertEquals(result.charAt(4), '\\');
+        assertEquals(result.charAt(5), '"');
+        assertEquals(result.charAt(6), '"');
+    }
 
     @Test
     void min() {
@@ -30,27 +43,27 @@ class Lesson1Test {
 
     @Test
     void isEven() {
-        assertTrue( Lesson1.isEven(-4));
+        assertTrue(Lesson1.isEven(-4));
         assertFalse(Lesson1.isEven(3));
     }
 
     @Test
     void min3() {
-        assertEquals(2, Lesson1.min3(2,3,4));
-        assertEquals(2, Lesson1.min3(2,2,4));
-        assertEquals(2, Lesson1.min3(2,4,4));
-        assertEquals(2, Lesson1.min3(3,2,4));
-        assertEquals(1, Lesson1.min3(1,2,4));
-        assertEquals(-5, Lesson1.min3(1,2,-5));
+        assertEquals(2, Lesson1.min3(2, 3, 4));
+        assertEquals(2, Lesson1.min3(2, 2, 4));
+        assertEquals(2, Lesson1.min3(2, 4, 4));
+        assertEquals(2, Lesson1.min3(3, 2, 4));
+        assertEquals(1, Lesson1.min3(1, 2, 4));
+        assertEquals(-5, Lesson1.min3(1, 2, -5));
     }
 
     @Test
     void max3() {
-        assertEquals(4, Lesson1.max3(2,3,4));
-        assertEquals(4, Lesson1.max3(3,3,4));
-        assertEquals(4, Lesson1.max3(2,4,4));
-        assertEquals(4, Lesson1.max3(3,2,4));
-        assertEquals(4, Lesson1.max3(4,2,4));
+        assertEquals(4, Lesson1.max3(2, 3, 4));
+        assertEquals(4, Lesson1.max3(3, 3, 4));
+        assertEquals(4, Lesson1.max3(2, 4, 4));
+        assertEquals(4, Lesson1.max3(3, 2, 4));
+        assertEquals(4, Lesson1.max3(4, 2, 4));
 
 
     }
