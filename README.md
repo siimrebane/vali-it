@@ -4,32 +4,32 @@
 ### Kõik slaidid
 
 ### Java / SQL
-**Sissejuhatus**: https://drive.google.com/file/d/1SWUYyjjb7CE41UO04Qzq-nY2-1ofSySq/view?usp=sharing  
-**Muutujad, tingimuslaused**: https://drive.google.com/file/d/1QYviLJg4qlorC7vzV4zzgkh85JPvOUDg/view?usp=sharing  
-**Stringid, funktsioonid**: https://drive.google.com/file/d/1H5xJU3WDae4fnjlfwnF-Un5IVlccJRGz/view?usp=sharing  
-**Konsool, massiivid, tsüklid**:  https://drive.google.com/file/d/1-l1ZilB4tj-9_bO2cpxbuRkxYk38hQEF/view?usp=sharing  
-**Objektid**: https://drive.google.com/file/d/1oaEbMpp-qkast8t8e4OUrVRTCzANc_8M/view?usp=sharing  
-**GIT**: https://drive.google.com/file/d/1zOdxrJ2-oZfzfcaYi1Zg384GVY5gtN9V/view?usp=sharing  
-**Json, REST, Web**: https://drive.google.com/file/d/104cKKJn1jadK91TJJYN4BKAHh98zR0qJ/view?usp=sharing  
-**Request Body, DTO**: https://drive.google.com/file/d/1wqpUF4an_neP1ZYiqZDvhMtdLhGg9p4G/view?usp=sharing  
-**OOP, Exceptionid**: https://drive.google.com/file/d/1ApXt7__dEhLk7ae-qWLF95D7QV528BZK/view?usp=sharing  
-**SQL**: https://drive.google.com/file/d/1elnwpfZwM2WLOGLWFXrIFSXoiwvcW1lp/view?usp=sharing  
-**Architecture**: https://drive.google.com/file/d/1uPMBm8CB-rUcStramd0Czz0QWKHDhkEO/view?usp=sharing  
-**Liquibase**: https://drive.google.com/file/d/1NCgQCfaVX4PRSqk5oVYPD4xhkJhJsewc/view?usp=sharing  
+**Sissejuhatus**: https://docs.google.com/presentation/d/1oo7YRuyil34b2dSlZ-VW3oG22OFUk9sF/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
+**Muutujad, tingimuslaused**: https://docs.google.com/presentation/d/1qkjpsEzB3zRmQiDTWDt0pVjaxAZMUtK0/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
+**Stringid, funktsioonid**: https://docs.google.com/presentation/d/1JO6J6bWThu_DnzL9i5BuG2IWXuu8oazB/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
+**Konsool, massiivid, tsüklid**:  
+**Objektid**:  
+**GIT**:  
+**Json, REST, Web**:  
+**Request Body, DTO**:  
+**OOP, Exceptionid**:  
+**SQL**:  
+**Architecture**:  
+**Liquibase**:  
 **Exceptions**:  
-**Hibernate, Spring Data**: https://drive.google.com/file/d/1eWV24l4MApKUK8S3d9s9NciMpFaTYjdT/view?usp=sharing    
-**Security**: https://drive.google.com/file/d/105CpgMW1lrLfVDRvNootiNYGuRcaN8iR/view?usp=sharing  
-**SQL 2**: https://drive.google.com/file/d/1zruh1n6XKl96AxLAEODKHAzcgbvdRZLe/view?usp=sharing  
-**Scheduled Tasks**: https://drive.google.com/file/d/1CON_T2_pTCzNfGu1p1ln8NtxMnP7mSI0/view?usp=sharing  
-**Email**: https://drive.google.com/file/d/1sInjMF7oZWqGzYkHI9q59W1mCv1ixUcl/view?usp=sharing  
-**Testing**: https://drive.google.com/file/d/1CFY-lk34AV7xU0Ccv6vzu_p6wXkSZ1nV/view?usp=sharing  
-**Transactions**: https://drive.google.com/file/d/1x1ESHw2XI9DdnDFQ50f3rfhzNoYErare/view?usp=sharing  
-**Deploy**: https://drive.google.com/file/d/12vl2ptXu0JJf5As-sevt8kY9GeM6A_Bb/view?usp=sharing  
+**Hibernate, Spring Data**:  
+**Security**:  
+**SQL 2**:  
+**Scheduled Tasks**:  
+**Email**:  
+**Testing**:  
+**Transactions**:  
+**Deploy**:  
 ### HTML / CSS
-**HTML, CSS**: https://drive.google.com/file/d/1iSoZQu-qyF94MYtQVu1i10pYyM1-k664/view?usp=sharing  
-**Javascript**: https://drive.google.com/file/d/1_SoHx2hc8fYapcM9tgcA-K7-uSc4qslp/view?usp=sharing  
-**Fetch and promise**: https://drive.google.com/file/d/1H7tIhHUMqy2fVmPcCY8oOiTn3KTm_qol/view?usp=sharing  
-**Vue JS**: https://drive.google.com/file/d/1l2qlHKwcK9y0wj26gCD7_ywf6AAYlx7X/view?usp=sharing  
+**HTML, CSS**:  
+**Javascript**:  
+**Fetch and promise**:  
+**Vue JS**:  
 
 ## Kodune lugemine ##
 **Git**: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow 
@@ -62,10 +62,6 @@ https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 
 ##  Viited
 **Intellije reference card**: https://drive.google.com/file/d/1xnH8zF8RPo8HIUcs7LgSnIupdwLaLZbn/view?usp=sharing  
-
-## Tunnikontroll
-15.04.2021: https://docs.google.com/document/d/1sSiRbosieeeawgQlttXFXyVEM01X6QWObTSPG99ASoQ/edit?usp=sharing  
-19.04.2021: https://docs.google.com/document/d/1-Ih82VNJAcCKbFJcGiB29PSAV7DASST1y0vTCX6Aer4/edit?usp=sharing  
 
 ## Vanad versioonid
 https://www.jetbrains.com/idea/download/other.html
