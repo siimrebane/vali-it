@@ -7,7 +7,7 @@
 **Sissejuhatus**: https://docs.google.com/presentation/d/1oo7YRuyil34b2dSlZ-VW3oG22OFUk9sF/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Muutujad, tingimuslaused**: https://docs.google.com/presentation/d/1qkjpsEzB3zRmQiDTWDt0pVjaxAZMUtK0/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Stringid, funktsioonid**: https://docs.google.com/presentation/d/1JO6J6bWThu_DnzL9i5BuG2IWXuu8oazB/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
-**Konsool, massiivid, tsüklid**:  
+**Konsool, massiivid, tsüklid**: https://docs.google.com/presentation/d/1HCuQXJiybJgrbkGZNjEF40yFu1h8pY6N/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Objektid**:  
 **GIT**:  
 **Json, REST, Web**:  
