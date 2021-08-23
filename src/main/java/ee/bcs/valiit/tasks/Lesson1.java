@@ -1,6 +1,5 @@
 package ee.bcs.valiit.tasks;
 
-import org.jetbrains.annotations.NotNull;
 
 // TODO kasuta if/else. Ära kasuta Math librarit
 public class Lesson1 {
