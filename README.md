@@ -31,9 +31,6 @@
 **Fetch and promise**:  
 **Vue JS**:  
 
-## Kodune lugemine ##
-**Git**: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow 
-
 ## Lisaülesanded (väiksem number = raskem ülesanne)
 ### Raskus 8
 https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1  
@@ -61,7 +58,9 @@ https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 **Test 4**:  
 
 ##  Viited
-**Intellije reference card**: https://drive.google.com/file/d/1xnH8zF8RPo8HIUcs7LgSnIupdwLaLZbn/view?usp=sharing  
+**Intellije reference card**: https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf  
+**Java (TTÜ materjalid): https://ained.ttu.ee/javadoc/index.html  
+**Git**: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
 ## Vanad versioonid
 https://www.jetbrains.com/idea/download/other.html
