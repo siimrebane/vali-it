@@ -40,6 +40,7 @@ class LessonATest {
         assertTrue(answer % 3 == 0);
         assertTrue(answer % 7 == 0);
         assertTrue(answer < 55);
+        assertTrue(answer > 0);
     }
 
     @Test
