@@ -8,7 +8,7 @@
 **Muutujad, tingimuslaused**: https://docs.google.com/presentation/d/1qkjpsEzB3zRmQiDTWDt0pVjaxAZMUtK0/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Stringid, funktsioonid**: https://docs.google.com/presentation/d/1JO6J6bWThu_DnzL9i5BuG2IWXuu8oazB/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Konsool, massiivid, tsüklid**: https://docs.google.com/presentation/d/1HCuQXJiybJgrbkGZNjEF40yFu1h8pY6N/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
-**Objektid**:  
+**Objektid**:  https://docs.google.com/presentation/d/1tUDoakeTN1LERDlNhpSCndy8vVOcAoAM/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **GIT**:  
 **Json, REST, Web**:  
 **Request Body, DTO**:  
@@ -59,7 +59,7 @@ https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 
 ##  Viited
 **Intellije reference card**: https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf  
-**Java**: (TTÜ materjalid): https://ained.ttu.ee/javadoc/index.html  
+**Java (TTÜ materjalid)**: https://ained.ttu.ee/javadoc/index.html  
 **Git**: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
 ## Vanad versioonid
