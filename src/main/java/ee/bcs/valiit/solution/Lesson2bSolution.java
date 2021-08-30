@@ -9,7 +9,12 @@ public class Lesson2bSolution {
     // TODO loe funktsiooni sisendiks on täisarvude massiiv
     // TODO tagasta massiiv mille elemendid on vastupidises järiekorras
     public static int[] reverseArray(int[] inputArray) {
-        return new int[1];
+        for(int i = 0; i < inputArray.length/2; i++){
+            int tmp = inputArray[i];
+            inputArray[i] = inputArray[inputArray.length-1-i];
+            inputArray[inputArray.length-1-i] = tmp;
+        }
+        return inputArray;
     }
 
     // TODO tagasta massiiv mis sisaldab n esimest paaris arvu (n >= 0)

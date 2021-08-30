@@ -6,9 +6,16 @@ import org.junit.jupiter.api.Test;
 class Lesson2bTest {
 
     @Test
-    void reverseArray_standard() {
+    void reverseArray_evenElements() {
         int[] input = {1, 2, 3, 4};
         int[] expectedOutput = {4, 3, 2, 1};
+        int[] output = Lesson2b.reverseArray(input);
+        Assertions.assertArrayEquals(expectedOutput, output);
+    }
+    @Test
+    void reverseArray_oddElements() {
+        int[] input = {1, 2, 3, 4, 5};
+        int[] expectedOutput = {5, 4, 3, 2, 1};
         int[] output = Lesson2b.reverseArray(input);
         Assertions.assertArrayEquals(expectedOutput, output);
     }
