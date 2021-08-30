@@ -10,7 +10,7 @@
 **Konsool, massiivid, tsüklid**: https://docs.google.com/presentation/d/1HCuQXJiybJgrbkGZNjEF40yFu1h8pY6N/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Objektid**:  https://docs.google.com/presentation/d/1tUDoakeTN1LERDlNhpSCndy8vVOcAoAM/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **GIT**: https://docs.google.com/presentation/d/1GY4NwADEZRZOP3hFHqilWfcphgZUKxNM/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
-**Json, REST, Web**: https://docs.google.com/presentation/d/1kXnWSKPbPL8euDczapTepBsMTO-hfOOX/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
+**Json, REST, Web**: https://docs.google.com/presentation/d/1FiTqVOGw5_vwBcdNqFcb9mDtHq9QViUM/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Request Body, DTO**:  
 **OOP, Exceptionid**:  
 **SQL**:  
