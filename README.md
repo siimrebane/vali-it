@@ -11,7 +11,7 @@
 **Objektid**:  https://docs.google.com/presentation/d/1tUDoakeTN1LERDlNhpSCndy8vVOcAoAM/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **GIT**: https://docs.google.com/presentation/d/1GY4NwADEZRZOP3hFHqilWfcphgZUKxNM/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Json, REST, Web**: https://docs.google.com/presentation/d/1FiTqVOGw5_vwBcdNqFcb9mDtHq9QViUM/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
-**Request Body, DTO**:  
+**Request Body, DTO**: https://docs.google.com/presentation/d/1JaaNUCEDh_URn7dRGTZ_wrro40UExqWx/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **OOP, Exceptionid**:  
 **SQL**:  
 **Architecture**:  
