@@ -14,7 +14,7 @@
 **Request Body, DTO**: https://docs.google.com/presentation/d/1JaaNUCEDh_URn7dRGTZ_wrro40UExqWx/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Objects**: https://docs.google.com/presentation/d/1pws_MES-RBO1hgvEwghUvfb-OWsLyX0V/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **SQL**: https://docs.google.com/presentation/d/1h6vB1bwJsZOWe87u1-8Ohuphs5HSj2pa/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
-**Architecture**:  
+**Architecture**: https://docs.google.com/presentation/d/1DX4c6YWyDsqM4IQkJEMB4X62CfVjOQA8/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Liquibase**:  
 **Exceptions**:  
 **Hibernate, Spring Data**:  
