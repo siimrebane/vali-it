@@ -15,21 +15,19 @@
 **Objects**: https://docs.google.com/presentation/d/1pws_MES-RBO1hgvEwghUvfb-OWsLyX0V/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **SQL**: https://docs.google.com/presentation/d/1h6vB1bwJsZOWe87u1-8Ohuphs5HSj2pa/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Architecture**: https://docs.google.com/presentation/d/1DX4c6YWyDsqM4IQkJEMB4X62CfVjOQA8/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
-**Liquibase**:  
+**Liquibase, SQL 2**: https://docs.google.com/presentation/d/1Z8pOQIJ-P-3AXMDNDB8FU8QCuFXPFjZd/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Exceptions**:  
-**Hibernate, Spring Data**:  
 **Security**:  
-**SQL 2**:  
-**Scheduled Tasks**:  
-**Email**:  
 **Testing**:  
-**Transactions**:  
-**Deploy**:  
 ### HTML / CSS
 **HTML, CSS**:  
 **Javascript**:  
 **Fetch and promise**:  
 **Vue JS**:  
+### Lisad
+**Hibernate, Spring Data**:  
+**Email**:
+**Deploy**:
 
 ## Lisaülesanded (väiksem number = raskem ülesanne)
 ### Raskus 8
