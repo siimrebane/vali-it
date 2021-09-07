@@ -23,14 +23,4 @@
             </column>
         </createTable>
     </changeSet>
-    <changeSet id="2020-01-26 add employee" author="Siim Rebane">
-        <createTable tableName="employee">
-            <column name="id" type="int" autoIncrement="true">
-                <constraints primaryKey="true"/>
-            </column>
-            <column name="name" type="text"/>
-            <column name="address" type="text"/>
-            <column name="phone" type="text"/>
-        </createTable>
-    </changeSet>
 </databaseChangeLog>
