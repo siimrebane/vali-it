@@ -49,11 +49,12 @@ https://www.codewars.com/kata/5a24a35a837545ab04001614
 https://www.codewars.com/kata/5819f1c3c6ab1b2b28000624  
 https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1  
 
-## Testid
+## Testid / Ülesanded
 **Test 1**: https://docs.google.com/presentation/d/1OQmRRO5KVAwmgdBIHGwKNqCIgVljOoUW/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Test 2**:  
 **Test 3**:  
 **Test 4**:  
+**Ülesanded**: https://docs.google.com/presentation/d/1jgbGIKujVNI-Fn_sqZNfxz8Ufr0P6xb7/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 
 ##  Viited
 **Intellije reference card**: https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf  
