@@ -60,6 +60,7 @@ https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 **Intellije reference card**: https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf  
 **Java (TTÜ materjalid)**: https://ained.ttu.ee/javadoc/index.html  
 **Git**: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+**Agile**: https://www.youtube.com/watch?v=a-BOSpxYJ9M&ab_channel=GOTOConferences  
 
 ## Vanad versioonid
 https://www.jetbrains.com/idea/download/other.html
