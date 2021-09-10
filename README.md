@@ -19,7 +19,7 @@
 **Exceptions**: https://docs.google.com/presentation/d/1aIg_atuncSBuXpJR2UUsvEhO2qlYYug3/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 ### HTML / CSS
 **HTML, CSS**: https://docs.google.com/presentation/d/1JJ3SZFz3HLu07Jp2Fz4MYAY2EbMkkCt_/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
-**Javascript**:  
+**Javascript**:  https://docs.google.com/presentation/d/1cpXlrYxl6Iyf8hRhWkVGhUWfWON8ergR/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Fetch and promise**:  
 **Vue JS**:  
 ### Lisad
