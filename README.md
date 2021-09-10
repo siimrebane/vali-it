@@ -20,7 +20,7 @@
 ### HTML / CSS
 **HTML, CSS**: https://docs.google.com/presentation/d/1JJ3SZFz3HLu07Jp2Fz4MYAY2EbMkkCt_/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Javascript**:  https://docs.google.com/presentation/d/1cpXlrYxl6Iyf8hRhWkVGhUWfWON8ergR/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
-**Fetch and promise**:  
+**Fetch and promise**: https://docs.google.com/presentation/d/1tlsXSEefP1cNHJNCqKr6Y8H6xH5v12G4/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Vue JS**:  
 ### Lisad
 **Security**:  
