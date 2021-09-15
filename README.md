@@ -19,9 +19,9 @@
 **Exceptions**: https://docs.google.com/presentation/d/1aIg_atuncSBuXpJR2UUsvEhO2qlYYug3/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 ### HTML / CSS
 **HTML, CSS**: https://docs.google.com/presentation/d/1JJ3SZFz3HLu07Jp2Fz4MYAY2EbMkkCt_/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
-**Javascript**:  https://docs.google.com/presentation/d/1cpXlrYxl6Iyf8hRhWkVGhUWfWON8ergR/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
+**Javascript**: https://docs.google.com/presentation/d/1cpXlrYxl6Iyf8hRhWkVGhUWfWON8ergR/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Fetch and promise**: https://docs.google.com/presentation/d/1tlsXSEefP1cNHJNCqKr6Y8H6xH5v12G4/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
-**Vue JS**:  
+**Vue JS**: https://docs.google.com/presentation/d/18vi_5EqMK3e7N9UR1Y9u3eZ7W1Te0bvC/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 ### Lisad
 **Security**:  
 **Testing**:  
