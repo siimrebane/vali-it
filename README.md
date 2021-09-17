@@ -53,7 +53,7 @@ https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 **Test 1**: https://docs.google.com/presentation/d/1OQmRRO5KVAwmgdBIHGwKNqCIgVljOoUW/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Test 2**:  
 **Test 3**:  
-**Test 4**: https://leht.postimees.ee/7340034/reaktsioon-politseireidile-kohvikusse-kas-teil-habi-ei-ole#_ga=2.242384514.1631509828.1631738034-1159109586.1610911235  
+**Test 4**: https://docs.google.com/presentation/d/1o6RF9PmegYTA7bYJtKOs5i_KCjfiQuI9/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true    
 **Ülesanded**: https://docs.google.com/presentation/d/1jgbGIKujVNI-Fn_sqZNfxz8Ufr0P6xb7/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 
 ##  Viited
