@@ -23,6 +23,7 @@
 **Fetch and promise**: https://docs.google.com/presentation/d/1tlsXSEefP1cNHJNCqKr6Y8H6xH5v12G4/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Vue JS**: https://docs.google.com/presentation/d/18vi_5EqMK3e7N9UR1Y9u3eZ7W1Te0bvC/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 ### Lisad
+**Scheduled Tasks**: https://docs.google.com/presentation/d/17REs-BUqlR5t346TcA_j9_hNerPH_oKi/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Security**:  
 **Testing**:  
 **Hibernate, Spring Data**:  
@@ -33,7 +34,6 @@
 ### Raskus 8
 https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1  
 https://www.codewars.com/kata/57d814e4950d8489720008db  
-https://www.codewars.om/kata/59fca81a5712f9fa4700159a  (raske, vajab 2nd süsteemist arusaamist)
 https://www.codewars.com/kata/5b73fe9fb3d9776fbf00009e  
 ### Raskus 7
 https://www.codewars.com/kata/5390bac347d09b7da40006f6  
