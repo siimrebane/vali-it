@@ -24,7 +24,7 @@
 **Vue JS**: https://docs.google.com/presentation/d/18vi_5EqMK3e7N9UR1Y9u3eZ7W1Te0bvC/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 ### Lisad
 **Scheduled Tasks**: https://docs.google.com/presentation/d/17REs-BUqlR5t346TcA_j9_hNerPH_oKi/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
-**Security**:  
+**Security**: https://docs.google.com/presentation/d/1hMNmNeSBn0gVeNTuvVCAxC1Ljcgm-l0j/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Testing**:  
 **Hibernate, Spring Data**:  
 **Email**:
@@ -61,6 +61,7 @@ https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 **Java (TTÜ materjalid)**: https://ained.ttu.ee/javadoc/index.html  
 **Git**: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 **Agile**: https://www.youtube.com/watch?v=a-BOSpxYJ9M&ab_channel=GOTOConferences  
+**Fonts in Vue**: https://reactgo.com/add-fonts-vue-app/  
 
 ## Vanad versioonid
 https://www.jetbrains.com/idea/download/other.html
