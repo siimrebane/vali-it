@@ -26,7 +26,7 @@
 **Scheduled Tasks**: https://docs.google.com/presentation/d/17REs-BUqlR5t346TcA_j9_hNerPH_oKi/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Security**: https://docs.google.com/presentation/d/1hMNmNeSBn0gVeNTuvVCAxC1Ljcgm-l0j/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Email**: https://docs.google.com/presentation/d/1A_kZIUMnHrmmEUXsEjSgh44os0pBxGjb/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
-**Testing**:  
+**Testing**: https://docs.google.com/presentation/d/1WdHvlF1a39em8JdSjGdM_LfcAkkFogo0/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Hibernate, Spring Data**:  
 **Deploy**:
 
