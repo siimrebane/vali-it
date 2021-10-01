@@ -27,8 +27,7 @@
 **Security**: https://docs.google.com/presentation/d/13bsunVacy5j1ymkq9nNFFvNkUlnB16fC/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Email**: https://docs.google.com/presentation/d/1A_kZIUMnHrmmEUXsEjSgh44os0pBxGjb/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 **Testing**: https://docs.google.com/presentation/d/1WdHvlF1a39em8JdSjGdM_LfcAkkFogo0/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
-**Hibernate, Spring Data**:  
-**Deploy**:
+**Deploy**: https://docs.google.com/presentation/d/1vfbP6hX5z9PI9bnxRC08Jt6FeaZvaEXq/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 
 ## Lisaülesanded (väiksem number = raskem ülesanne)
 ### Raskus 8
