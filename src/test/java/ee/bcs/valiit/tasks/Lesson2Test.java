@@ -15,14 +15,6 @@ class Lesson2Test {
     }
 
     @Test
-    void firstN() {
-        Lesson2 lesson2 = new Lesson2();
-        int[] answer = lesson2.firstN(5);
-        int[] expected = {1, 2, 3, 4, 5};
-        assertArrayEquals(expected, answer);
-    }
-
-    @Test
     void generateArray() {
         int[] answer1 = Lesson2.generateArray(0);
         int[] expected1 = {};
