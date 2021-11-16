@@ -12,7 +12,7 @@ public class Lesson3HardControllerSolution {
     int randomNumber = random.nextInt(100);
     int count = 0;
 
-    @GetMapping("lesson3hard/guess/{guess}")
+    @GetMapping("lesson3hardsolution/guess/{guess}")
     public String guess(@PathVariable("guess") int guess) {
         count++;
         if (guess > randomNumber) {
