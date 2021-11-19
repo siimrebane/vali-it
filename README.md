@@ -58,6 +58,7 @@ https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 
 ## Testid
 Test 1: https://docs.google.com/presentation/d/12o4Xz7XY0sMRFRZT5vc5WbKrIAszbnaq/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true
+Test 2: https://docs.google.com/presentation/d/1N_cl0fHk8DVFfaMxZKs75Z2JGoCHyJdn/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
 
 ## Vanad IntelliJ versioonid
 https://www.jetbrains.com/idea/download/other.html
