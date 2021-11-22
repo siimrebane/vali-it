@@ -19,36 +19,22 @@ public class AccountControllerSolution {
     private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
     @Autowired
-    private AccountServiceSolution accountServiceSolution;
+    private AccountServiceSolution accountService;
 
     @PostMapping("solution/account/{account}")
     public String createAccount(@PathVariable("account") String accountNumber){
-        return accountServiceSolution.createAccount(accountNumber);
+        return accountService.createAccount(accountNumber);
     }
 
     @GetMapping("solution/account/{account}")
     public String getBalance(@PathVariable("account") String accountNumber) {
-        String sql = "SELECT balance FROM account WHERE account_number = :accountNumber";
-        Map<String, Object> paramMap = new HashMap<>();
-        paramMap.put("accountNumber", accountNumber);
-        int balance = namedParameterJdbcTemplate.queryForObject(sql, paramMap, Integer.class);
-        return "Konto " + accountNumber + " balanss on: " + balance;
+        return accountService.getBalance(accountNumber);
     }
 
     @PutMapping("solution/account/{account}/deposit/{amount}")
     public String depositMoney(@PathVariable("account") String accountNumber,
                                @PathVariable("amount") Integer amount) {
-        String sql = "SELECT balance FROM account WHERE account_number = :accountNumber";
-        Map<String, Object> paramMap = new HashMap<>();
-        paramMap.put("accountNumber", accountNumber);
-        int balance = namedParameterJdbcTemplate.queryForObject(sql, paramMap, Integer.class);
-        int newBalance = balance + amount;
-        String sql2 = "UPDATE account SET balance = :newBalance WHERE account_number = :accountNumber";
-        Map<String, Object> paramMap2 = new HashMap<>();
-        paramMap2.put("accountNumber", accountNumber);
-        paramMap2.put("newBalance", newBalance);
-        namedParameterJdbcTemplate.update(sql2, paramMap2);
-        return "Konto " + accountNumber + " uus balanss on: " + newBalance;
+        return accountService.depositMoney(accountNumber, amount);
     }
 
     @PutMapping("solution/account/deposit")
