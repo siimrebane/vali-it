@@ -18,13 +18,12 @@ public class AccountControllerSolution {
     @Autowired
     private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
+    @Autowired
+    private AccountServiceSolution accountServiceSolution;
+
     @PostMapping("solution/account/{account}")
     public String createAccount(@PathVariable("account") String accountNumber){
-        String sql = "INSERT INTO account (account_number) VALUES (:accountNumber)";
-        Map<String, Object> paramMap = new HashMap<>();
-        paramMap.put("accountNumber", accountNumber);
-        namedParameterJdbcTemplate.update(sql, paramMap);
-        return "Konto " + accountNumber + " on loodud";
+        return accountServiceSolution.createAccount(accountNumber);
     }
 
     @GetMapping("solution/account/{account}")

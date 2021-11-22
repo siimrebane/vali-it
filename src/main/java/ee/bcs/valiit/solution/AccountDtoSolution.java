@@ -28,4 +28,13 @@ public class AccountDtoSolution {
     public void setLocked(boolean locked) {
         this.locked = locked;
     }
+
+    @Override
+    public String toString() {
+        return "AccountDtoSolution{" +
+                "accountNumber='" + accountNumber + '\'' +
+                ", balance=" + balance +
+                ", locked=" + locked +
+                '}';
+    }
 }
