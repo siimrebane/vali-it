@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<input id="a">
+<button id="button">Do something</button>
+<span id="answer">Siia tuleb vastus</span>
+<script>
+    let button = document.getElementById("button");
+    button.onclick = function () {
+        let a = document.getElementById("a");
+        let url = '/account/' + a.value
+        let body = {
+            accountNumber: a.value
+        }
+        let options = {
+            method: 'POST',
+            body: JSON.stringify(body)
+        }
+        fetch(url, options)
+            .then(result => result.text())
+            .then(function (result) {
+                let answer = document.getElementById("answer");
+                answer.innerText = result;
+            })
+    }
+</script>
+</body>
+</html>
