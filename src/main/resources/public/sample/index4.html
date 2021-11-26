@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<input id="a">
+<button id="button">Do something</button>
+<table id="resultTable">
+    <tr>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>3</td>
+    </tr>
+</table>
+<script>
+    let button = document.getElementById("button");
+    button.onclick = function (){
+        let a = document.getElementById("a").value;
+        let resultTable = document.getElementById("resultTable");
+        resultTable.innerHTML = "";
+        let data = generateArray(a);
+        for(let i = 0; i < data.length; i++){
+            let row = document.createElement("tr");
+            let cell = document.createElement("td");
+            cell.innerText = data[i];
+            resultTable.appendChild(row);
+            row.appendChild(cell);
+        }
+    }
+    function generateArray(n) {
+        let result = [];
+        for (let i = 0; i < n; i++) {
+            result[i] = i + 1;
+        }
+        return result;
+    }
+</script>
+</body>
+</html>
