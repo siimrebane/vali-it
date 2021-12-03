@@ -55,6 +55,10 @@ https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 **Agile**: https://www.youtube.com/watch?v=a-BOSpxYJ9M&ab_channel=GOTOConferences  
 **Fonts in Vue**: https://reactgo.com/add-fonts-vue-app/  
 **Vue programmatic**: https://router.vuejs.org/guide/essentials/navigation.html  
+**Vue getting started**: vue add vuetify  
+**Vuetify layout**: https://vuetifyjs.com/en/features/layouts/  
+**Vuetify grid system**: https://vuetifyjs.com/en/components/grids
+
 
 ## Testid
 Test 1: https://docs.google.com/presentation/d/12o4Xz7XY0sMRFRZT5vc5WbKrIAszbnaq/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true
