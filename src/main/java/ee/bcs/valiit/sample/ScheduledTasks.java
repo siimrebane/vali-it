@@ -54,6 +54,7 @@ public class ScheduledTasks {
             Elements priceElement = element.select(".unit-price");
             System.out.println("Price: " + priceElement.html());
         }
+        // teen mingeid muudatusi
     }
 
     public RestTemplate getRestTemplate() throws NoSuchAlgorithmException, KeyStoreException, KeyManagementException {
